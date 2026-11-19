@@ -1,0 +1,38 @@
+\begin{table}[!ht]
+\centering
+\caption{\textbf{Single-cell benchmark: top-1 accuracy (mean of 5 receivers) when the applied signal is chosen among 10, 37 or 90 candidate signals.} Superscripts: number of receivers (of 5) in which R2S-hierarchical was more accurate at Holm-adjusted $p<0.05$ (donor-paired sign-flip test); no method was significantly more accurate than R2S-hierarchical in any receiver. Bold: highest accuracy in each column. SecAct covers 7 of the 10 signals of the smallest panel and is scored on the units and candidates it covers. --: the method's published reference does not cover the panel; n.r.: not run (scArches would need a new query model). Per-receiver values and 95\% intervals of the receiver means: Supplementary Table S2.}
+\label{tab:singlecell}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{GSE181897} & \multicolumn{3}{c}{GSE327907} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & 10 & 37 & 90 & 10 & 37 & 90 \\
+\midrule
+\multicolumn{7}{l}{\emph{R2S variants}} \\
+R2S-hierarchical & \textbf{0.758} & \textbf{0.660} & \textbf{0.630} & 0.622 & 0.442 & 0.286 \\
+R2S-pool & 0.751$^{1}$ & 0.594$^{2}$ & 0.572$^{2}$ & \textbf{0.627} & 0.430 & 0.272 \\
+R2S-atlas & 0.533$^{5}$ & 0.201$^{5}$ & 0.195$^{5}$ & 0.548 & \textbf{0.449} & \textbf{0.403} \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Signature-based methods}} \\
+CytoSig & 0.729$^{1}$ & 0.440$^{5}$ & -- & 0.565 & 0.284 & -- \\
+CytoSig model, atlas reference & 0.570$^{5}$ & 0.300$^{4}$ & 0.290$^{4}$ & 0.511 & 0.406 & 0.358 \\
+SecAct & 0.577$^{3}$ & 0.210$^{5}$ & -- & 0.075 & 0.033 & -- \\
+Signature matching (Pearson) & 0.487$^{5}$ & 0.231$^{5}$ & 0.229$^{5}$ & 0.465 & 0.349 & 0.287 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Embedding-based classifiers}} \\
+scVI, zero-shot & 0.212$^{5}$ & 0.044$^{5}$ & 0.022$^{5}$ & 0.461 & 0.282 & 0.221 \\
+scVI, scArches & 0.224$^{5}$ & 0.046$^{5}$ & 0.026$^{5}$ & n.r. & n.r. & n.r. \\
+PCA & 0.134$^{5}$ & 0.011$^{5}$ & 0.005$^{5}$ & 0.491 & 0.355 & 0.289 \\
+NMF & 0.149$^{5}$ & 0.024$^{5}$ & 0.014$^{5}$ & 0.496 & 0.333 & 0.277 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Foundation-model embeddings}} \\
+Geneformer & 0.292$^{5}$ & 0.078$^{5}$ & 0.012$^{5}$ & 0.298 & 0.202 & 0.145 \\
+Geneformer, 45 PCs & 0.197$^{5}$ & 0.046$^{5}$ & 0.027$^{5}$ & 0.362 & 0.217 & 0.160 \\
+scGPT & 0.235$^{5}$ & 0.054$^{5}$ & 0.016$^{5}$ & 0.312 & 0.188 & 0.150 \\
+scGPT, 45 PCs & 0.157$^{5}$ & 0.076$^{5}$ & 0.026$^{5}$ & 0.376 & 0.229 & 0.193 \\
+\addlinespace
+Chance & 0.100 & 0.027 & 0.011 & 0.100 & 0.027 & 0.011 \\
+\bottomrule
+\end{tabular}
+\end{table}

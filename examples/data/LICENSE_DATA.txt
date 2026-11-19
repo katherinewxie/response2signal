@@ -1,0 +1,7 @@
+Data licence for examples/data/gse181897_cd14_mono_donor_response.csv.gz
+
+Pseudobulk responses (mean log1p(CP10k) of treated minus unstimulated CD14 monocytes; 8,513 genes; values rounded
+to 8 significant digits) of one donor (donor "0") to IFN-beta, IFN-gamma and TNF-alpha, derived from the public
+NCBI GEO series GSE181897 (Hartoularos et al.). NCBI places no restrictions on the use or distribution of GEO data;
+submitters may claim rights in their data (https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html). Cite GSE181897
+when using it. This file is not covered by the MIT licence of the code.

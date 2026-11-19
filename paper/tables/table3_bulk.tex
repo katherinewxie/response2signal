@@ -1,0 +1,26 @@
+\begin{table}[!ht]
+\centering
+\caption{\textbf{Bulk receivers from many tissues (top-1 accuracy, study mean).} (a) R2S-hierarchical vs R2S-pool on the 41 signals with at least three source studies. (b) R2S-hierarchical vs CytoSig. The published CytoSig signatures were built from the reference studies, so there CytoSig's procedure was rebuilt within each leave-one-study-out fold; in the held-out sets (studies outside the reference), published CytoSig is compared on the 30 signals it covers. Study-paired sign-flip tests. The two comparisons on held-out set 1 were pre-registered as one family (Holm). Differences were computed before rounding. LOSO: leave one study out. 95\% confidence intervals: Supplementary Table S4.}
+\label{tab:bulk}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrlll}
+\toprule
+\multicolumn{5}{l}{\emph{(a) Same sources, two ways of combining them (41 signals)}} \\
+Set & Studies & R2S-hierarchical & R2S-pool & Difference ($p$) \\
+\midrule
+Reference studies (LOSO) & 378 & 0.652 & 0.626 & +0.026 (0.012) \\
+Held-out set 1 & 121 & 0.676 & 0.620 & +0.055 (Holm 0.024) \\
+Held-out set 2 & 135 & 0.701 & 0.677 & +0.024 (0.013) \\
+Held-out set 3 & 107 & 0.700 & 0.668 & +0.032 (0.115) \\
+\midrule
+\multicolumn{5}{l}{\emph{(b) R2S-hierarchical vs CytoSig}} \\
+Set & Studies & R2S-hierarchical & CytoSig & Difference ($p$) \\
+\midrule
+Reference studies (LOSO) & 378 & 0.652 & 0.598 & +0.054 ($<$0.001) \\
+Held-out set 1 & 118 & 0.712 & 0.633 & +0.079 (Holm 0.053) \\
+Held-out set 2 & 134 & 0.708 & 0.678 & +0.029 (0.367) \\
+Held-out set 3 & 105 & 0.704 & 0.651 & +0.052 (0.041) \\
+\bottomrule
+\end{tabular}
+\end{table}

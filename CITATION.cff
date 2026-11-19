@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Response2Signal (R2S)"
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/katherinewxie/response2signal"
+authors:
+  - family-names: Xie
+    given-names: Katherine
+    affiliation: "Department of Biological Chemistry, University of California, Irvine"
+  - family-names: Wu
+    given-names: Jie
+    email: jiew5@uci.edu
+    affiliation: "Department of Biological Chemistry, University of California, Irvine"
+preferred-citation:
+  type: article
+  title: "Response2Signal: integrating single-cell and bulk perturbation studies to identify extracellular signals from receiver responses"
+  authors:
+    - family-names: Xie
+      given-names: Katherine
+    - family-names: Wu
+      given-names: Jie
+  journal: "BMC Bioinformatics"
+  notes: "Manuscript under review"

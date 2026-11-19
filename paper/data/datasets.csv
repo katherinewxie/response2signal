@@ -1,0 +1,9 @@
+dataset,citation_key,data,size,role,block
+Human Cytokine Dictionary,oesinghaus2025cytokinedictionary,"single-cell RNA, PBMC, 24\,h",12 donors; 90 cytokines and PBS,Signature source (atlas); within-atlas results in the Supplement,source
+Bulk perturbation compendium (GEO),,"bulk RNA, primary cells and cell lines, many tissues","507 studies; 1,434 experiments","Signature source; evaluation (LOSO, 378 studies)",source
+CytoSig signatures,jiang2021cytosig,published signatures,43 signals,Signature source (blood receivers); comparator,source
+GSE181897,hartoularos2023gse181897,"single-cell RNA, PBMC, 9\,h","64 donors; IFN-$\beta$, IFN-$\gamma$, TNF-$\alpha$",Evaluation (descriptive),evaluation
+GSE327907,wood2026gse327907,"single-cell RNA, PBMC, 48\,h",12 donors; 7 cytokines,Evaluation (descriptive),evaluation
+Held-out set 1,,bulk RNA,121 studies; 389 experiments; 27 signals,Evaluation (pre-registered test),evaluation
+Held-out set 2,,bulk RNA,135 studies; 397 experiments; 23 signals,Evaluation,evaluation
+Held-out set 3,,bulk RNA,107 studies; 310 experiments; 26 signals,Evaluation,evaluation

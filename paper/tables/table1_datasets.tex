@@ -1,0 +1,24 @@
+\begin{table}[!ht]
+\centering
+\caption{\textbf{Datasets and their roles.} Each dataset was assigned its role before it was scored.
+The single-cell cohorts were used while the method was designed, so results on them are descriptive; held-out
+set 1 was built and frozen after the method was fixed. Held-out sets contain only studies outside the reference.
+LOSO: leave one study out.}
+\label{tab:datasets}
+\small
+\begin{tabular}{p{2.8cm}p{2.6cm}p{2.6cm}p{3.3cm}}
+\toprule
+Dataset & Data & Size & Role \\
+\midrule
+Human Cytokine Dictionary~\cite{oesinghaus2025cytokinedictionary} & single-cell RNA, PBMC, 24\,h & 12 donors; 90 cytokines and PBS & Signature source (atlas); within-atlas results in the Supplement \\
+Bulk perturbation compendium (GEO) & bulk RNA, primary cells and cell lines, many tissues & 507 studies; 1,434 experiments & Signature source; evaluation (LOSO, 378 studies) \\
+CytoSig signatures~\cite{jiang2021cytosig} & published signatures & 43 signals & Signature source (blood receivers); comparator \\
+\midrule
+GSE181897~\cite{hartoularos2023gse181897} & single-cell RNA, PBMC, 9\,h & 64 donors; IFN-$\beta$, IFN-$\gamma$, TNF-$\alpha$ & Evaluation (descriptive) \\
+GSE327907~\cite{wood2026gse327907} & single-cell RNA, PBMC, 48\,h & 12 donors; 7 cytokines & Evaluation (descriptive) \\
+Held-out set 1 & bulk RNA & 121 studies; 389 experiments; 27 signals & Evaluation (pre-registered test) \\
+Held-out set 2 & bulk RNA & 135 studies; 397 experiments; 23 signals & Evaluation \\
+Held-out set 3 & bulk RNA & 107 studies; 310 experiments; 26 signals & Evaluation \\
+\bottomrule
+\end{tabular}
+\end{table}
