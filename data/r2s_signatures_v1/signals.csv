@@ -1,0 +1,132 @@
+configuration,signal,ligand_genes,family,cytosig_column,atlas_classes,has_atlas,has_pool_bulk,n_study_columns
+single_cell,4-1BBL,TNFSF9,costimulatory,,4-1BBL,True,False,0
+single_cell,ADSF,RETN,other,,ADSF,True,False,0
+single_cell,APRIL,TNFSF13,B cell regulators,,APRIL,True,False,0
+single_cell,BAFF,TNFSF13B,B cell regulators,,BAFF,True,False,0
+single_cell,C5a,C5,complement,,C5a,True,False,0
+single_cell,CD27L,CD70,costimulatory,,CD27L,True,False,0
+single_cell,CD30L,TNFSF8,costimulatory,,CD30L,True,False,0
+single_cell,CD40L,CD40LG,costimulatory,CD40L,CD40L,True,True,3
+single_cell,CT-1,CTF1,IL-6/IL-12,,CT-1,True,False,0
+single_cell,Decorin,DCN,other,,Decorin,True,False,0
+single_cell,EGF,EGF,EGF family,EGF,EGF,True,True,17
+single_cell,EPO,EPO,other growth factors,,EPO,True,False,0
+single_cell,FGF-beta,FGF2,FGF family,FGF2,FGF-beta,True,True,6
+single_cell,FLT3L,FLT3LG,other growth factors,,FLT3L,True,False,0
+single_cell,FasL,FASLG,death ligands,,FasL,True,False,0
+single_cell,G-CSF,CSF3,colony stimulating,GCSF,G-CSF,True,False,0
+single_cell,GDNF,GDNF,neurotrophic,,GDNF,True,False,0
+single_cell,GITRL,TNFSF18,costimulatory,,GITRL,True,False,0
+single_cell,GM-CSF,CSF2,Common β chain,GMCSF,GM-CSF,True,True,7
+single_cell,HGF,HGF,other growth factors,HGF,HGF,True,True,9
+single_cell,IFN-alpha1,IFNA1,TypeI IFNs,IFN1,IFN-alpha1,True,True,36
+single_cell,IFN-beta,IFNB1,TypeI IFNs,IFN1,IFN-beta,True,True,29
+single_cell,IFN-epsilon,IFNE,TypeI IFNs,IFN1,IFN-epsilon,True,False,0
+single_cell,IFN-gamma,IFNG,TypeII IFNs,IFNG,IFN-gamma,True,True,50
+single_cell,IFN-lambda1,IFNL1,TypeIII IFNs,IFNL,IFN-lambda1,True,False,0
+single_cell,IFN-lambda2,IFNL2,TypeIII IFNs,IFNL,IFN-lambda2,True,False,0
+single_cell,IFN-lambda3,IFNL3,TypeIII IFNs,IFNL,IFN-lambda3,True,True,4
+single_cell,IFN-omega,IFNW1,TypeI IFNs,IFN1,IFN-omega,True,False,0
+single_cell,IGF-1,IGF1,IGF family,,IGF-1,True,True,5
+single_cell,IL-1-alpha,IL1A,IL-1,IL1A,IL-1-alpha,True,True,3
+single_cell,IL-1-beta,IL1B,IL-1,IL1B,IL-1-beta,True,True,36
+single_cell,IL-10,IL10,IL-10,IL10,IL-10,True,True,12
+single_cell,IL-11,IL11,IL-6/IL-12,,IL-11,True,False,0
+single_cell,IL-12,"IL12A, IL12B",IL-6/IL-12,IL12,IL-12,True,True,4
+single_cell,IL-13,IL13,IL4/IL13,IL13,IL-13,True,True,18
+single_cell,IL-15,IL15,Common γ chain,IL15,IL-15,True,True,6
+single_cell,IL-16,IL16,other IL,,IL-16,True,False,0
+single_cell,IL-17A,IL17A,IL-17,IL17A,IL-17A,True,True,11
+single_cell,IL-17B,IL17B,IL-17,,IL-17B,True,False,0
+single_cell,IL-17C,IL17C,IL-17,,IL-17C,True,False,0
+single_cell,IL-17D,IL17D,IL-17,,IL-17D,True,False,0
+single_cell,IL-17E,IL25,IL-17,,IL-17E,True,False,0
+single_cell,IL-17F,IL17F,IL-17,,IL-17F,True,False,0
+single_cell,IL-18Ra,nan,unassigned,,IL-18Ra,True,False,0
+single_cell,IL-19,IL19,IL-10,,IL-19,True,False,0
+single_cell,IL-1Ra,IL1RN,IL-1,,IL-1Ra,True,False,0
+single_cell,IL-2,IL2,Common γ chain,IL2,IL-2,True,True,7
+single_cell,IL-20,IL20,IL-10,,IL-20,True,False,0
+single_cell,IL-21,IL21,Common γ chain,IL21,IL-21,True,False,0
+single_cell,IL-22,IL22,IL-10,IL22,IL-22,True,True,10
+single_cell,IL-23,"IL23A, IL12B",IL-6/IL-12,,IL-23,True,False,0
+single_cell,IL-24,IL24,IL-10,,IL-24,True,False,0
+single_cell,IL-26,IL26,IL-10,,IL-26,True,False,0
+single_cell,IL-27,"IL27, EBI3",IL-6/IL-12,IL27,IL-27,True,False,3
+single_cell,IL-3,IL3,Common β chain,IL3,IL-3,True,True,3
+single_cell,IL-31,IL31,IL-6/IL-12,,IL-31,True,False,0
+single_cell,IL-32-beta,IL32,other IL,,IL-32-beta,True,False,0
+single_cell,IL-33,IL33,IL-1,,IL-33,True,True,4
+single_cell,IL-34,IL34,other growth factors,,IL-34,True,False,0
+single_cell,IL-35,"EBI3, IL12A",IL-6/IL-12,,IL-35,True,False,0
+single_cell,IL-36-alpha,IL36A,IL-1,IL36,IL-36-alpha,True,False,0
+single_cell,IL-36Ra,IL36RN,IL-1,,IL-36Ra,True,False,0
+single_cell,IL-4,IL4,IL4/IL13,IL4,IL-4,True,True,25
+single_cell,IL-5,IL5,Common β chain,,IL-5,True,False,0
+single_cell,IL-6,IL6,IL-6/IL-12,IL6,IL-6,True,True,15
+single_cell,IL-7,IL7,Common γ chain,,IL-7,True,True,3
+single_cell,IL-8,CXCL8,"CXCR1, CXCR2",,IL-8,True,False,0
+single_cell,IL-9,IL9,Common γ chain,,IL-9,True,False,0
+single_cell,LAP-TGF-beta1,TGFB1,TGF-beta family,TGFB1,LAP-TGF-beta1,True,True,35
+single_cell,LIF,LIF,IL-6/IL-12,LIF,LIF,True,False,0
+single_cell,LIGHT,TNFSF14,other TNF,,LIGHT,True,False,0
+single_cell,LT-alpha1-beta2,"LTA, LTB",core TNF,,LT-alpha1-beta2,True,False,0
+single_cell,LT-alpha2-beta1,"LTA, LTB",core TNF,,LT-alpha2-beta1,True,False,0
+single_cell,Leptin,LEP,other,,Leptin,True,False,0
+single_cell,M-CSF,CSF1,colony stimulating,MCSF,M-CSF,True,True,3
+single_cell,Megalin,LRP2,unassigned,,Megalin,True,False,0
+single_cell,Noggin,NOG,other,,Noggin,True,False,0
+single_cell,OSM,OSM,IL-6/IL-12,OSM,OSM,True,True,3
+single_cell,OX40L,TNFSF4,costimulatory,,OX40L,True,False,0
+single_cell,PRL,PRL,other,,PRL,True,False,0
+single_cell,PSPN,PSPN,neurotrophic,,PSPN,True,False,0
+single_cell,RANKL,TNFSF11,other TNF,,RANKL,True,True,3
+single_cell,SCF,KITLG,other growth factors,,SCF,True,False,0
+single_cell,TL1A,TNFSF15,other TNF,,TL1A,True,False,0
+single_cell,TNF-alpha,TNF,core TNF,TNFA,TNF-alpha,True,True,76
+single_cell,TPO,THPO,other,,TPO,True,False,0
+single_cell,TRAIL,TNFSF10,death ligands,TRAIL,TRAIL,True,True,6
+single_cell,TSLP,TSLP,other IL,,TSLP,True,True,6
+single_cell,TWEAK,TNFSF12,other TNF,TWEAK,TWEAK,True,False,0
+single_cell,VEGF,VEGFA,VEGF family,VEGFA,VEGF,True,True,9
+bulk,BMP2,,,BMP2,,False,True,6
+bulk,BMP4,,,BMP4,,False,True,8
+bulk,BMP6,,,BMP6,,False,True,4
+bulk,BMP7,,,,,False,True,5
+bulk,CD40LG,,,CD40L,CD40L,False,True,3
+bulk,CSF1,,,MCSF,M-CSF,False,True,3
+bulk,CSF2,,,GMCSF,GM-CSF,False,True,7
+bulk,CXCL12,,,CXCL12,,False,True,6
+bulk,EGF,,,EGF,EGF,False,True,18
+bulk,FGF2,,,FGF2,FGF-beta,False,True,6
+bulk,HGF,,,HGF,HGF,False,True,8
+bulk,HMGB1,,,,,False,True,3
+bulk,IFN1,,,IFN1,IFN-alpha1;IFN-beta,False,True,53
+bulk,IFNG,,,IFNG,IFN-gamma,False,True,44
+bulk,IFNL,,,IFNL,IFN-lambda1;IFN-lambda2;IFN-lambda3,False,True,6
+bulk,IGF1,,,,IGF-1,False,True,5
+bulk,IL1,,,IL1A;IL1B,IL-1-alpha;IL-1-beta,False,True,38
+bulk,IL10,,,IL10,IL-10,False,True,12
+bulk,IL12_complex,,,IL12,IL-12,False,True,4
+bulk,IL13,,,IL13,IL-13,False,True,16
+bulk,IL15,,,IL15,IL-15,False,True,4
+bulk,IL17,,,IL17A,IL-17A;IL-17F,False,True,12
+bulk,IL18,,,,,False,True,3
+bulk,IL2,,,IL2,IL-2,False,True,7
+bulk,IL22,,,IL22,IL-22,False,True,8
+bulk,IL33,,,,IL-33,False,True,3
+bulk,IL4,,,IL4,IL-4,False,True,23
+bulk,IL6,,,IL6,IL-6,False,True,11
+bulk,INHBA,,,Activin A,,False,True,3
+bulk,INS,,,,,False,True,4
+bulk,NRG1,,,,,False,True,3
+bulk,OSM,,,OSM,OSM,False,True,3
+bulk,PDGF,,,,,False,True,5
+bulk,TGFA,,,,,False,True,4
+bulk,TGFB,,,TGFB1;TGFB3,LAP-TGF-beta1,False,True,73
+bulk,TNF,,,TNFA,TNF-alpha,False,True,66
+bulk,TNFSF10,,,TRAIL,TRAIL,False,True,5
+bulk,TSLP,,,,TSLP,False,True,5
+bulk,VEGFA,,,VEGFA,VEGF,False,True,9
+bulk,WNT3A,,,WNT3A,,False,True,7
+bulk,WNT5A,,,,,False,True,3

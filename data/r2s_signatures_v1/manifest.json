@@ -1,0 +1,33 @@
+{
+ "name": "r2s_signatures_v1",
+ "version": "r2s_signatures_v1",
+ "precision": "float32",
+ "contents": {
+  "single_cell": {
+   "genes_atlas": 40352,
+   "classes": 90,
+   "study_columns": 467,
+   "pooled_bulk_classes": 32,
+   "genes_bulk": 32134
+  },
+  "bulk": {
+   "genes": 30668,
+   "classes": 41,
+   "study_columns": 516
+  }
+ },
+ "cytosig": {
+  "url": "https://raw.githubusercontent.com/data2intelligence/CytoSig/eb741454f08ead71254b148b561b19690fb44f9c/CytoSig/signature.centroid",
+  "sha256": "60a3152afe429a7dbb41fa0597ab9730141ce858af16a35f7063e64bfc239bde",
+  "licence": "GPL-3.0 (https://github.com/data2intelligence/CytoSig/blob/master/LICENSE)",
+  "citation": "Jiang P. et al., Nat Methods 18, 1181-1191 (2021), doi:10.1038/s41592-021-01274-5"
+ },
+ "files": {
+  "LICENSE_DATA.md": "2a5c56afae8b74e8593f9ccbde73d248ad4b3c80886600fa2629d62d469ce26a",
+  "atlas.npz": "62d943745cee3315b1be7b2d6b56db33be3fa9b7420d69a12f103acce278cc9d",
+  "bulk.npz": "c822f3c1f3be2e8f26c4143757ed0f2d8ac1db3855ad3a784c8ca4e12b2afee9",
+  "columns.csv": "03de4653e70e1e87229346050d98f92f88f42f499f3983d6a99e0c93abbefdc1",
+  "sc_bulk.npz": "a7cf89ff15f603c977b5a89795c2fe1fbbab47e4c6323c32893370ede2099a05",
+  "signals.csv": "e89533ca7d8a56bb0e78ef95bbd64c8291c6658c090b5e6d90e475a6aed93ac8"
+ }
+}

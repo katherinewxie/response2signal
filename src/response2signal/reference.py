@@ -1,12 +1,13 @@
 """The R2S signature database (``r2s_signatures_v1``) and the published CytoSig signatures.
 
-The database is a directory of compressed numpy files plus CSV metadata, distributed as a release asset of
-https://github.com/katherinewxie/response2signal (it is too large for the git repository). It is looked up in
-this order:
+The database is a directory of compressed numpy files plus CSV metadata. It is included in the source repository
+(``data/r2s_signatures_v1``) and distributed as a release asset of https://github.com/katherinewxie/response2signal.
+It is looked up in this order:
 
 1. the ``path`` argument of :func:`load_reference`;
 2. the environment variable ``R2S_REFERENCE`` (a database directory);
-3. ``<cache>/r2s_signatures_v1`` (``<cache>`` = ``$R2S_HOME`` or ``~/.cache/response2signal``), downloaded there
+3. the copy bundled with the source repository, ``data/r2s_signatures_v1`` (float32 only);
+4. ``<cache>/r2s_signatures_v1`` (``<cache>`` = ``$R2S_HOME`` or ``~/.cache/response2signal``), downloaded there
    on first use from the release URL and checked against its sha256.
 
 Contents (see ``LICENSE_DATA.md`` and ``manifest.json`` inside the database):
@@ -97,6 +98,9 @@ def _resolve(path, precision, download) -> Path:
     if os.environ.get("R2S_REFERENCE"):
         return Path(os.environ["R2S_REFERENCE"])
     name = DB_VERSION if precision == "float32" else DB_VERSION + "_f64"
+    bundled = Path(__file__).resolve().parents[2] / "data" / name
+    if (bundled / "manifest.json").exists():
+        return bundled
     p = cache_dir() / name
     if (p / "manifest.json").exists():
         return p

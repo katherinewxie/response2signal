@@ -3,8 +3,9 @@
 Scores the responses of one donor's CD14 monocytes to IFN-beta, IFN-gamma and TNF-alpha (GSE181897; bundled in
 examples/data) against the 90-cytokine single-cell reference, and prints the top signals.
 
-First run: downloads the signature database r2s_signatures_v1 (~150 MB) into ~/.cache/response2signal (or set
-R2S_REFERENCE to an unpacked copy) and the published CytoSig matrix (~4 MB) from its official repository.
+The signature database r2s_signatures_v1 is read from data/ of the repository when the package is installed from a
+clone; otherwise it is downloaded once (~150 MB) into ~/.cache/response2signal. The published CytoSig matrix (~4 MB)
+is downloaded once from its official repository.
 """
 from pathlib import Path
 

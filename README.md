@@ -6,10 +6,8 @@ control, with a reference of perturbation signatures. For each signal, the refer
 study, drawn from a single-cell cytokine atlas, a compendium of public bulk perturbation experiments and the
 published CytoSig signatures. A hierarchical ridge regression combines the study signatures.
 
-> Katherine Xie and Jie Wu. *Response2Signal: integrating single-cell and bulk perturbation studies to identify
-> extracellular signals from receiver responses.* Manuscript under review at BMC Bioinformatics.
-> Department of Biological Chemistry, University of California, Irvine. Corresponding author: Jie Wu
-> (jiew5@uci.edu).
+This repository accompanies the manuscript *Response2Signal: integrating single-cell and bulk perturbation studies
+to identify extracellular signals from receiver responses* (under review).
 
 ![R2S overview](paper/figures/figure1_r2s.png)
 
@@ -22,6 +20,7 @@ of a signal is the permutation z-score of its shared coefficient. (D) The three 
 | Path | Contents |
 |---|---|
 | `src/response2signal/` | the R2S package |
+| `data/r2s_signatures_v1/` | the R2S signature database (see below) |
 | `examples/` | a minimal, runnable example with bundled data |
 | `tests/` | unit tests (no data download needed) |
 | `paper/` | scripts and source tables that reproduce the figures and tables of the main text (see `paper/README.md`) |
@@ -58,7 +57,7 @@ python examples/r2s_minimal_example.py
 ```
 
 It scores the responses of one donor's CD14 monocytes to IFN-β, IFN-γ and TNF-α (GSE181897) and runs on a CPU in
-well under a minute after the one-time downloads.
+well under a minute (the published CytoSig matrix is downloaded once on first use).
 
 From an AnnData object of one receiver cell type with raw counts:
 
@@ -110,20 +109,25 @@ definitions.
 
 ## Signature database
 
-The reference is the versioned database **`r2s_signatures_v1`**, distributed as a release asset of this
-repository because it is too large for git:
+The reference is the versioned database **`r2s_signatures_v1`** (float32, 142 MB), included in this repository in
+`data/r2s_signatures_v1/`:
 
-| Asset | Size | Content |
-|---|---|---|
-| `r2s_signatures_v1.tar` | 148 MB | float32 signatures (default) |
-| `r2s_signatures_v1_f64.tar` | 224 MB | float64 copy that reproduces the paper's z-scores exactly |
+| File | Content |
+|---|---|
+| `atlas.npz` | composite and own-cell-type atlas signatures of the Human Cytokine Dictionary (40,352 genes × 90 cytokines; five receiver cell types) and the expressed-gene set of each cell type |
+| `sc_bulk.npz` | blood configuration: 467 per-study bulk signatures (377 GEO studies, 33 signals) and the pooled bulk signatures |
+| `bulk.npz` | bulk configuration: 516 per-study signatures (412 GEO studies, 41 signals) and the pooled signatures |
+| `columns.csv` | one row per study signature: signal, GEO study, number of experiments, ligand(s), platform, cell source, lineage |
+| `signals.csv` | the signals of each configuration, with their ligand genes and CytoSig column |
+| `manifest.json`, `LICENSE_DATA.md` | contents, sha256 checksums and data licences |
 
-`r2s.load_reference()` downloads `r2s_signatures_v1` on first use, verifies its sha256 checksum and caches it in
-`~/.cache/response2signal`. Set `R2S_HOME` to change the cache directory, or `R2S_REFERENCE` to point to an unpacked
-copy. To work offline, download the asset from
-`https://github.com/katherinewxie/response2signal/releases/download/r2s_signatures_v1/r2s_signatures_v1.tar`, untar
-it and call `load_reference(path=...)`. The database contains the atlas signatures, the per-study and pooled bulk
-signatures, and `columns.csv`, which lists the GEO study, ligand, platform and cell source of every study signature.
+When the package is installed from a clone of this repository (`pip install -e .`), `r2s.load_reference()` uses
+this copy directly. Otherwise it downloads the same database from the release asset
+`https://github.com/katherinewxie/response2signal/releases/download/r2s_signatures_v1/r2s_signatures_v1.tar` on
+first use, verifies its sha256 checksum and caches it in `~/.cache/response2signal` (set `R2S_HOME` to change the
+cache directory). `R2S_REFERENCE` or `load_reference(path=...)` point to any other copy. A float64 copy that
+reproduces the paper's z-scores exactly is available as the release asset `r2s_signatures_v1_f64.tar` (224 MB;
+`load_reference(precision="float64")`).
 
 The published CytoSig signatures are not redistributed (GPL-3.0); `r2s.fetch_cytosig()` downloads them from the
 official repository at a pinned commit and checks their sha256.
@@ -154,4 +158,4 @@ The code is released under the MIT licence (`LICENSE`). The data have their own 
 
 ## Citation
 
-If you use R2S, please cite the paper above (see also `CITATION.cff`).
+If you use R2S, please cite the accompanying paper; the full reference will be added here on publication.

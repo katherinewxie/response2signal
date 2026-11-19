@@ -1,0 +1,984 @@
+column_id,configuration,signal,study_id,gse,source,n_experiments,ligands,lineage_majority,technology,cell_source,receiver_labels
+sc|CD40L|GSE132835,single_cell,CD40L,GSE132835,GSE132835,bulk_GEO,2,CD40LG,lymphoid,RNA-seq,primary,B cell
+sc|CD40L|GSE85543,single_cell,CD40L,GSE85543,GSE85543,bulk_GEO,1,CD40LG,lymphoid,array,primary,B cell
+sc|CD40L|GSE85544,single_cell,CD40L,GSE85544,GSE85544,bulk_GEO,3,CD40LG,myeloid,array,primary,dendritic cell
+sc|EGF|GSE113039,single_cell,EGF,GSE113039,GSE113039,bulk_GEO,1,EGF,epithelial,RNA-seq,primary,kidney epithelial cell
+sc|EGF|GSE121485,single_cell,EGF,GSE121485,GSE121485,bulk_GEO,3,EGF,epithelial (cervical carcinoma),RNA-seq,cell_line,cell line HeLa
+sc|EGF|GSE121697,single_cell,EGF,GSE121697,GSE121697,bulk_GEO,1,EGF,stromal,RNA-seq,primary,mesenchymal stem cell
+sc|EGF|GSE13168,single_cell,EGF,GSE13168,GSE13168,bulk_GEO,2,EGF,muscle,array,primary,bronchial smooth muscle cell
+sc|EGF|GSE18938,single_cell,EGF,GSE18938,GSE18938,bulk_GEO,2,EGF,"epithelial (breast, immortalised)",array,cell_line,cell line MCF-10A
+sc|EGF|GSE20277,single_cell,EGF,GSE20277,GSE20277,bulk_GEO,3,EGF,epithelial (cervical carcinoma),array,cell_line,cell line HeLa
+sc|EGF|GSE24391,single_cell,EGF,GSE24391,GSE24391,bulk_GEO,6,EGF,"epithelial (breast, immortalised)",array,cell_line,cell line MCF-10A
+sc|EGF|GSE26081,single_cell,EGF,GSE26081,GSE26081,bulk_GEO,2,EGF,epithelial (breast carcinoma),array,cell_line,cell line MCF-7
+sc|EGF|GSE26264,single_cell,EGF,GSE26264,GSE26264,bulk_GEO,1,EGF,"epithelial (breast, immortalised)",array,cell_line,cell line MCF-10A
+sc|EGF|GSE32217,single_cell,EGF,GSE32217,GSE32217,bulk_GEO,1,EGF,epithelial,array,primary,keratinocyte
+sc|EGF|GSE33806,single_cell,EGF,GSE33806,GSE33806,bulk_GEO,2,EGF,tissue,array,tissue_explant,tissue explant
+sc|EGF|GSE34228,single_cell,EGF,GSE34228,GSE34228,bulk_GEO,2,EGF,epithelial,array,cell_line,keratinocyte
+sc|EGF|GSE50982,single_cell,EGF,GSE50982,GSE50982,bulk_GEO,3,EGF,nan,array,cell_line,unknown
+sc|EGF|GSE53405,single_cell,EGF,GSE53405,GSE53405,bulk_GEO,3,EGF,"epithelial (breast, immortalised)",array,cell_line,cell line MCF-10A
+sc|EGF|GSE73914,single_cell,EGF,GSE73914,GSE73914,bulk_GEO,2,EGF,epithelial,array,primary,mammary gland epithelial cell
+sc|EGF|GSE77751,single_cell,EGF,GSE77751,GSE77751,bulk_GEO,1,EGF,nan,RNA-seq,unknown,unknown
+sc|EGF|GSE94063,single_cell,EGF,GSE94063,GSE94374;GSE94408,bulk_GEO,4,EGF,epithelial (colorectal carcinoma),RNA-seq,cell_line,cell line HCT 116;cell line IMR-90;cell line MCF-7
+sc|FGF-beta|GSE103383,single_cell,FGF-beta,GSE103383,GSE103383,bulk_GEO,4,FGF2,endocrine,RNA-seq,cell_line,pancreatic islet cell (mixed)
+sc|FGF-beta|GSE11302,single_cell,FGF-beta,GSE11302,GSE11302,bulk_GEO,2,FGF2,nan,array,stem_cell_derived,unknown
+sc|FGF-beta|GSE115240,single_cell,FGF-beta,GSE115240,GSE115240,bulk_GEO,1,FGF2,stromal,RNA-seq,primary,mesenchymal stem cell
+sc|FGF-beta|GSE14828,single_cell,FGF-beta,GSE14828,GSE14828,bulk_GEO,3,FGF2,stromal,array,primary,mesenchymal stem cell
+sc|FGF-beta|GSE62192,single_cell,FGF-beta,GSE62192,GSE62192,bulk_GEO,1,FGF2,epithelial (prostate carcinoma),array,cell_line,cell line LNCaP
+sc|FGF-beta|GSE63015,single_cell,FGF-beta,GSE63015,GSE63015,bulk_GEO,1,FGF2,neural,RNA-seq,primary,neural progenitor cell
+sc|GM-CSF|GSE11886,single_cell,GM-CSF,GSE11886,GSE11886,bulk_GEO,1,CSF2,myeloid,array,primary,macrophage
+sc|GM-CSF|GSE35304,single_cell,GM-CSF,GSE35304,GSE35304,bulk_GEO,4,CSF2,myeloid,array,primary,monocyte
+sc|GM-CSF|GSE40548,single_cell,GM-CSF,GSE40548,GSE40548,bulk_GEO,1,CSF2,myeloid,RNA-seq,primary,neutrophil
+sc|GM-CSF|GSE57915,single_cell,GM-CSF,GSE57915,GSE57915,bulk_GEO,2,CSF2,myeloid,array,primary,plasmacytoid dendritic cell
+sc|GM-CSF|GSE63662,single_cell,GM-CSF,GSE63662,GSE63662,bulk_GEO,1,CSF2,myeloid,array,primary,monocyte
+sc|GM-CSF|GSE70068,single_cell,GM-CSF,GSE70068,GSE70068,bulk_GEO,2,CSF2,myeloid,RNA-seq,primary,neutrophil
+sc|GM-CSF|GSE89442,single_cell,GM-CSF,GSE89442,GSE89442,bulk_GEO,1,CSF2,myeloid,RNA-seq,primary,dendritic cell
+sc|HGF|GSE109720,single_cell,HGF,GSE109720,GSE109720,bulk_GEO,1,HGF,nan,RNA-seq,cell_line,unknown
+sc|HGF|GSE111542,single_cell,HGF,GSE111542,GSE111542,bulk_GEO,1,HGF,epithelial,array,primary,kidney epithelial cell
+sc|HGF|GSE121297,single_cell,HGF,GSE121297,GSE121297,bulk_GEO,1,HGF,endothelial,array,primary,endothelial cell of umbilical vein
+sc|HGF|GSE129075,single_cell,HGF,GSE129075,GSE129075,bulk_GEO,2,HGF,nan,RNA-seq,cell_line,unknown
+sc|HGF|GSE135552,single_cell,HGF,GSE135552,GSE135552,bulk_GEO,3,HGF,nan,RNA-seq,cell_line,cell line FaDu;unknown
+sc|HGF|GSE151560,single_cell,HGF,GSE151560,GSE151560,bulk_GEO,1,HGF,epithelial,array,primary,hepatocyte
+sc|HGF|GSE26736,single_cell,HGF,GSE26736,GSE26732;GSE26735,bulk_GEO,6,HGF,nan,array,cell_line,unknown
+sc|HGF|GSE71404,single_cell,HGF,GSE71404,GSE71404,bulk_GEO,3,HGF,nan,array,cell_line,cell line PC3M (prostate adenocarcinoma)
+sc|HGF|GSE98979,single_cell,HGF,GSE98979,GSE98979,bulk_GEO,2,HGF,epithelial,array,cell_line,epithelial cell
+sc|IFN-alpha1|GSE107307,single_cell,IFN-alpha1,GSE107307,GSE107307,bulk_GEO,2,IFNA_unspecified,nan,RNA-seq,cell_line,"cell line RD-ES (Ewing sarcoma, USP6 induced);cell line RD-ES (Ewing sarcoma, dox-inducible USP6)"
+sc|IFN-alpha1|GSE123816,single_cell,IFN-alpha1,GSE123816,GSE123816,bulk_GEO,1,IFNA2,nan,RNA-seq,stem_cell_derived,unknown
+sc|IFN-alpha1|GSE124939,single_cell,IFN-alpha1,GSE124939,GSE124939,bulk_GEO,4,IFNA2;IFNA_unspecified,epithelial,RNA-seq,primary,keratinocyte
+sc|IFN-alpha1|GSE13046,single_cell,IFN-alpha1,GSE13046,GSE13046,bulk_GEO,1,IFNA2,epithelial (hepatoma),array,cell_line,cell line Huh-7
+sc|IFN-alpha1|GSE140044,single_cell,IFN-alpha1,GSE140044,GSE140035,bulk_GEO,1,IFNA_unspecified,lymphoid,RNA-seq,primary,natural killer cell
+sc|IFN-alpha1|GSE145496,single_cell,IFN-alpha1,GSE145496,GSE145496,bulk_GEO,1,IFNA2,nan,RNA-seq,stem_cell_derived,unknown
+sc|IFN-alpha1|GSE16755,single_cell,IFN-alpha1,GSE16755,GSE16755,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,macrophage
+sc|IFN-alpha1|GSE17302,single_cell,IFN-alpha1,GSE17302,GSE17301,bulk_GEO,1,IFNA2,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+sc|IFN-alpha1|GSE206784,single_cell,IFN-alpha1,GSE206784,GSE206784,bulk_GEO,3,IFNA_unspecified,epithelial,RNA-seq,cell_line,epithelial cell
+sc|IFN-alpha1|GSE23203,single_cell,IFN-alpha1,GSE23203,GSE26949;GSE26950;GSE26951,bulk_GEO,3,IFNA_unspecified,endothelial,array,primary,endothelial cell
+sc|IFN-alpha1|GSE24125,single_cell,IFN-alpha1,GSE24125,GSE24125,bulk_GEO,1,IFNA_unspecified,stromal,array,primary,skin fibroblast
+sc|IFN-alpha1|GSE27427,single_cell,IFN-alpha1,GSE27427,GSE27427,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,neutrophil
+sc|IFN-alpha1|GSE31019,single_cell,IFN-alpha1,GSE31019,GSE31019,bulk_GEO,5,IFNA_unspecified,mesenchymal (fibrosarcoma),array,cell_line,cell line HT1080;cell line SKOV3
+sc|IFN-alpha1|GSE33264,single_cell,IFN-alpha1,GSE33264,GSE33264,bulk_GEO,3,IFNA_unspecified,epithelial (lung carcinoma),array,cell_line,cell line Calu-3
+sc|IFN-alpha1|GSE34572,single_cell,IFN-alpha1,GSE34572,GSE34572,bulk_GEO,1,IFNA2,lymphoid,array,cell_line,"CD4-positive, alpha-beta T cell"
+sc|IFN-alpha1|GSE36287,single_cell,IFN-alpha1,GSE36287,GSE36287,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,keratinocyte
+sc|IFN-alpha1|GSE37715,single_cell,IFN-alpha1,GSE37715,GSE37715,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,hepatocyte
+sc|IFN-alpha1|GSE38598,single_cell,IFN-alpha1,GSE38598,GSE38147,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,hepatocyte
+sc|IFN-alpha1|GSE39088,single_cell,IFN-alpha1,GSE39088,GSE39088,bulk_GEO,1,IFNA2,mixed_blood,array,primary,whole blood
+sc|IFN-alpha1|GSE3920,single_cell,IFN-alpha1,GSE3920,GSE3920,bulk_GEO,2,IFNA_unspecified,mixed,array,primary,endothelial cell;fibroblast
+sc|IFN-alpha1|GSE41291,single_cell,IFN-alpha1,GSE41291,GSE41291,bulk_GEO,4,IFNA_unspecified,nan,array,cell_line,unknown
+sc|IFN-alpha1|GSE41960,single_cell,IFN-alpha1,GSE41960,GSE41960,bulk_GEO,2,IFNA_unspecified,stromal,array,primary,skin fibroblast
+sc|IFN-alpha1|GSE48400,single_cell,IFN-alpha1,GSE48400,GSE48400,bulk_GEO,7,IFNA_unspecified,epithelial (hepatoma),array,cell_line,cell line Huh7 (hepatoma)
+sc|IFN-alpha1|GSE50007,single_cell,IFN-alpha1,GSE50007,GSE48313,bulk_GEO,6,IFNA_unspecified,nan,array,cell_line,unknown
+sc|IFN-alpha1|GSE54455,single_cell,IFN-alpha1,GSE54455,GSE54455,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,macrophage
+sc|IFN-alpha1|GSE60359,single_cell,IFN-alpha1,GSE60359,GSE60359,bulk_GEO,1,IFNA_unspecified,stromal,array,primary,fibroblast
+sc|IFN-alpha1|GSE60574,single_cell,IFN-alpha1,GSE60574,GSE60572,bulk_GEO,4,IFNA2,epithelial (lung carcinoma),array,cell_line,cell line A549
+sc|IFN-alpha1|GSE64796,single_cell,IFN-alpha1,GSE64796,GSE64794,bulk_GEO,1,IFNA2,epithelial (hepatoma),array,cell_line,cell line HuH7
+sc|IFN-alpha1|GSE65575,single_cell,IFN-alpha1,GSE65575,GSE71732,bulk_GEO,3,IFNA_unspecified,epithelial,array,cell_line,hepatocyte
+sc|IFN-alpha1|GSE67737,single_cell,IFN-alpha1,GSE67737,GSE67737,bulk_GEO,1,IFNA_unspecified,stromal,array,primary,skin fibroblast
+sc|IFN-alpha1|GSE72420,single_cell,IFN-alpha1,GSE72420,GSE72501,bulk_GEO,1,IFNA_unspecified,lymphoid,RNA-seq,cell_line,B cell
+sc|IFN-alpha1|GSE75007,single_cell,IFN-alpha1,GSE75007,GSE75007,bulk_GEO,7,IFNA_unspecified,lymphoid,array,primary,B cell
+sc|IFN-alpha1|GSE80325,single_cell,IFN-alpha1,GSE80325,GSE103500,bulk_GEO,1,IFNA_unspecified,mixed_blood,array,primary,whole blood
+sc|IFN-alpha1|GSE83716,single_cell,IFN-alpha1,GSE83716,GSE83716,bulk_GEO,2,IFNA_unspecified,myeloid,array,primary,macrophage
+sc|IFN-alpha1|GSE85487,single_cell,IFN-alpha1,GSE85487,GSE85487,bulk_GEO,1,IFNA_unspecified,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IFN-alpha1|GSE89610,single_cell,IFN-alpha1,GSE89610,GSE89610,bulk_GEO,1,IFNA_unspecified,epithelial,array,cell_line,hepatocyte
+sc|IFN-beta|GSE103363,single_cell,IFN-beta,GSE103363,GSE103363,bulk_GEO,1,IFNB1,epithelial (cervical carcinoma),array,cell_line,cell line HeLa
+sc|IFN-beta|GSE103477,single_cell,IFN-beta,GSE103477,GSE103477,bulk_GEO,1,IFNB1,myeloid,RNA-seq,primary,macrophage
+sc|IFN-beta|GSE104349,single_cell,IFN-beta,GSE104349,GSE104348,bulk_GEO,1,IFNB1,tissue,RNA-seq,tissue_explant,tissue explant
+sc|IFN-beta|GSE114284,single_cell,IFN-beta,GSE114284,GSE114284,bulk_GEO,2,IFNB1,epithelial,RNA-seq,cell_line,epithelial cell
+sc|IFN-beta|GSE122794,single_cell,IFN-beta,GSE122794,GSE122791,bulk_GEO,2,IFNB1,stromal,RNA-seq,primary;stem_cell_derived,fibroblast;skin fibroblast
+sc|IFN-beta|GSE123816,single_cell,IFN-beta,GSE123816,GSE123816,bulk_GEO,1,IFNB1,nan,RNA-seq,stem_cell_derived,unknown
+sc|IFN-beta|GSE124939,single_cell,IFN-beta,GSE124939,GSE124939,bulk_GEO,2,IFNB1,epithelial,RNA-seq,primary,keratinocyte
+sc|IFN-beta|GSE145496,single_cell,IFN-beta,GSE145496,GSE145496,bulk_GEO,1,IFNB1,nan,RNA-seq,stem_cell_derived,unknown
+sc|IFN-beta|GSE16214,single_cell,IFN-beta,GSE16214,GSE16214,bulk_GEO,3,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IFN-beta|GSE174380,single_cell,IFN-beta,GSE174380,GSE174380,bulk_GEO,2,IFNB1,lymphoid,RNA-seq,cell_line;primary,"CD4-positive, alpha-beta T cell"
+sc|IFN-beta|GSE19392,single_cell,IFN-beta,GSE19392,GSE19392,bulk_GEO,9,IFNB1,epithelial,array,primary,airway epithelial cell
+sc|IFN-beta|GSE23307,single_cell,IFN-beta,GSE23307,GSE23307,bulk_GEO,1,IFNB1,lymphoid,array,primary,B cell
+sc|IFN-beta|GSE35268,single_cell,IFN-beta,GSE35268,GSE35267;GSE35268,bulk_GEO,6,IFNB1,epithelial (lung carcinoma),array,cell_line,cell line A549
+sc|IFN-beta|GSE35601,single_cell,IFN-beta,GSE35601,GSE35601,bulk_GEO,1,IFNB1,myeloid,array,primary,monocyte
+sc|IFN-beta|GSE37750,single_cell,IFN-beta,GSE37750,GSE37750,bulk_GEO,1,IFNB1,myeloid,array,primary,plasmacytoid dendritic cell
+sc|IFN-beta|GSE3920,single_cell,IFN-beta,GSE3920,GSE3920,bulk_GEO,1,IFNB1,endothelial,array,primary,endothelial cell
+sc|IFN-beta|GSE47616,single_cell,IFN-beta,GSE47616,GSE47616,bulk_GEO,1,IFNB1,stromal,array,primary,skin fibroblast
+sc|IFN-beta|GSE48400,single_cell,IFN-beta,GSE48400,GSE48400,bulk_GEO,7,IFNB1,epithelial (hepatoma),array,cell_line,cell line Huh7 (hepatoma)
+sc|IFN-beta|GSE50954,single_cell,IFN-beta,GSE50954,GSE50954,bulk_GEO,1,IFNB1,stromal,array,cell_line,fibroblast
+sc|IFN-beta|GSE54970,single_cell,IFN-beta,GSE54970,GSE54970,bulk_GEO,1,IFNB1,myeloid,array,primary,dendritic cell
+sc|IFN-beta|GSE58240,single_cell,IFN-beta,GSE58240,GSE58240,bulk_GEO,2,IFNB1,lymphoid,array,primary,B cell
+sc|IFN-beta|GSE67737,single_cell,IFN-beta,GSE67737,GSE67737,bulk_GEO,1,IFNB1,stromal,array,primary,skin fibroblast
+sc|IFN-beta|GSE70270,single_cell,IFN-beta,GSE70270,GSE70270,bulk_GEO,1,IFNB1,nan,array,cell_line,cell line WISH
+sc|IFN-beta|GSE71634,single_cell,IFN-beta,GSE71634,GSE71634,bulk_GEO,1,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IFN-beta|GSE73608,single_cell,IFN-beta,GSE73608,GSE73608,bulk_GEO,6,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IFN-beta|GSE74047,single_cell,IFN-beta,GSE74047,GSE74047,bulk_GEO,2,IFNB1,myeloid (monocytic leukaemia),array,cell_line,cell line THP-1
+sc|IFN-beta|GSE85487,single_cell,IFN-beta,GSE85487,GSE85487,bulk_GEO,1,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IFN-beta|GSE89476,single_cell,IFN-beta,GSE89476,GSE89476,bulk_GEO,2,IFNB1,neural,RNA-seq,primary,astrocyte
+sc|IFN-beta|GSE94521,single_cell,IFN-beta,GSE94521,GSE94521,bulk_GEO,1,IFNB1,nan,array,stem_cell_derived,unknown
+sc|IFN-gamma|GSE103363,single_cell,IFN-gamma,GSE103363,GSE103363,bulk_GEO,1,IFNG,epithelial (cervical carcinoma),array,cell_line,cell line HeLa
+sc|IFN-gamma|GSE105142,single_cell,IFN-gamma,GSE105142,GSE105142,bulk_GEO,1,IFNG,myeloid,RNA-seq,primary,myeloid-derived suppressor cell
+sc|IFN-gamma|GSE109720,single_cell,IFN-gamma,GSE109720,GSE109720,bulk_GEO,4,IFNG,nan,RNA-seq,cell_line,unknown
+sc|IFN-gamma|GSE120945,single_cell,IFN-gamma,GSE120945,GSE120944;GSE130567,bulk_GEO,2,IFNG,myeloid,RNA-seq,primary,CD14-positive monocyte;macrophage
+sc|IFN-gamma|GSE122985,single_cell,IFN-gamma,GSE122985,GSE122985,bulk_GEO,1,IFNG,epithelial (colorectal carcinoma),array,cell_line,cell line HCT116
+sc|IFN-gamma|GSE124939,single_cell,IFN-gamma,GSE124939,GSE124939,bulk_GEO,2,IFNG,epithelial,RNA-seq,primary,keratinocyte
+sc|IFN-gamma|GSE128392,single_cell,IFN-gamma,GSE128392,GSE128392,bulk_GEO,1,IFNG,mesenchymal (fibrosarcoma),RNA-seq,cell_line,cell line HT-1080
+sc|IFN-gamma|GSE131499,single_cell,IFN-gamma,GSE131499,GSE131499,bulk_GEO,5,IFNG,stromal,array,primary;stem_cell_derived,mesenchymal stem cell
+sc|IFN-gamma|GSE132408,single_cell,IFN-gamma,GSE132408,GSE132408,bulk_GEO,2,IFNG,myeloid,RNA-seq,cell_line,monocyte
+sc|IFN-gamma|GSE135458,single_cell,IFN-gamma,GSE135458,GSE135458,bulk_GEO,2,IFNG,epithelial (colorectal carcinoma),RNA-seq,cell_line,cell line HCT 116
+sc|IFN-gamma|GSE142672,single_cell,IFN-gamma,GSE142672,GSE142672,bulk_GEO,1,IFNG,myeloid,array,primary,monocyte
+sc|IFN-gamma|GSE17477,single_cell,IFN-gamma,GSE17477,GSE17477,bulk_GEO,1,IFNG,myeloid,array,cell_line,macrophage
+sc|IFN-gamma|GSE190634,single_cell,IFN-gamma,GSE190634,GSE190634,bulk_GEO,1,IFNG,nan,RNA-seq,stem_cell_derived,unknown
+sc|IFN-gamma|GSE215801,single_cell,IFN-gamma,GSE215801,GSE215801,bulk_GEO,1,IFNG,myeloid,RNA-seq,primary,macrophage
+sc|IFN-gamma|GSE235238,single_cell,IFN-gamma,GSE235238,GSE235235,bulk_GEO,2,IFNG,nan,RNA-seq,cell_line,unknown
+sc|IFN-gamma|GSE288134,single_cell,IFN-gamma,GSE288134,GSE288134,bulk_GEO,1,IFNG,stromal,array,primary,skin fibroblast
+sc|IFN-gamma|GSE30273,single_cell,IFN-gamma,GSE30273,GSE30273,bulk_GEO,1,IFNG,myeloid,array,primary,monocyte
+sc|IFN-gamma|GSE32407,single_cell,IFN-gamma,GSE32407,GSE32407,bulk_GEO,2,IFNG,nan,array,unknown,unknown
+sc|IFN-gamma|GSE33264,single_cell,IFN-gamma,GSE33264,GSE33264,bulk_GEO,3,IFNG,epithelial (lung carcinoma),array,cell_line,cell line Calu-3
+sc|IFN-gamma|GSE36287,single_cell,IFN-gamma,GSE36287,GSE36287,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+sc|IFN-gamma|GSE36331,single_cell,IFN-gamma,GSE36331,GSE36331,bulk_GEO,1,IFNG,epithelial,array,cell_line,retinal pigment epithelial cell
+sc|IFN-gamma|GSE38598,single_cell,IFN-gamma,GSE38598,GSE38147,bulk_GEO,2,IFNG,epithelial,array,primary,hepatocyte
+sc|IFN-gamma|GSE3920,single_cell,IFN-gamma,GSE3920,GSE3920,bulk_GEO,2,IFNG,mixed,array,primary,endothelial cell;fibroblast
+sc|IFN-gamma|GSE41291,single_cell,IFN-gamma,GSE41291,GSE41291,bulk_GEO,4,IFNG,nan,array,cell_line,unknown
+sc|IFN-gamma|GSE49852,single_cell,IFN-gamma,GSE49852,GSE49706,bulk_GEO,1,IFNG,myeloid,array,primary,macrophage
+sc|IFN-gamma|GSE5054,single_cell,IFN-gamma,GSE5054,GSE5054,bulk_GEO,2,IFNG,nan,array,unknown,unknown
+sc|IFN-gamma|GSE50954,single_cell,IFN-gamma,GSE50954,GSE50954,bulk_GEO,1,IFNG,stromal,array,cell_line,fibroblast
+sc|IFN-gamma|GSE53751,single_cell,IFN-gamma,GSE53751,GSE53751,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+sc|IFN-gamma|GSE54818,single_cell,IFN-gamma,GSE54818,GSE54817,bulk_GEO,2,IFNG,myeloid,array,primary,CD14-positive monocyte
+sc|IFN-gamma|GSE5542,single_cell,IFN-gamma,GSE5542,GSE5542,bulk_GEO,2,IFNG,epithelial,array,cell_line,epithelial cell
+sc|IFN-gamma|GSE55751,single_cell,IFN-gamma,GSE55751,GSE55749;GSE55750,bulk_GEO,4,IFNG,mixed,array,cell_line,cell line U-251MG;cell line U2OS
+sc|IFN-gamma|GSE56026,single_cell,IFN-gamma,GSE56026,GSE56026,bulk_GEO,1,IFNG,nan,array,cell_line,unknown
+sc|IFN-gamma|GSE58096,single_cell,IFN-gamma,GSE58096,GSE58096,bulk_GEO,2,IFNG,myeloid,array,cell_line,monocyte
+sc|IFN-gamma|GSE64997,single_cell,IFN-gamma,GSE64997,GSE64995;GSE64996,bulk_GEO,2,IFNG,myeloid,array,primary,macrophage
+sc|IFN-gamma|GSE65575,single_cell,IFN-gamma,GSE65575,GSE106523;GSE106524,bulk_GEO,6,IFNG,mixed,array,primary,endothelial cell;fibroblast
+sc|IFN-gamma|GSE67737,single_cell,IFN-gamma,GSE67737,GSE67737,bulk_GEO,1,IFNG,stromal,array,primary,skin fibroblast
+sc|IFN-gamma|GSE68942,single_cell,IFN-gamma,GSE68942,GSE68942,bulk_GEO,1,IFNG,"epithelial (proximal tubule, immortalised)",array,cell_line,cell line HK-2
+sc|IFN-gamma|GSE7216,single_cell,IFN-gamma,GSE7216,GSE7216,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+sc|IFN-gamma|GSE75007,single_cell,IFN-gamma,GSE75007,GSE75007,bulk_GEO,7,IFNG,lymphoid,array,primary,B cell
+sc|IFN-gamma|GSE76340,single_cell,IFN-gamma,GSE76340,GSE76340,bulk_GEO,2,IFNG,mixed,array,primary,endothelial cell of umbilical vein;melanocyte
+sc|IFN-gamma|GSE77154,single_cell,IFN-gamma,GSE77154,GSE77154,bulk_GEO,2,IFNG,epithelial,array,cell_line,epithelial cell
+sc|IFN-gamma|GSE77814,single_cell,IFN-gamma,GSE77814,GSE77814,bulk_GEO,2,IFNG,nan,array,cell_line,unknown
+sc|IFN-gamma|GSE78193,single_cell,IFN-gamma,GSE78193,GSE78193,bulk_GEO,3,IFNG,mixed_blood,array,primary,whole blood
+sc|IFN-gamma|GSE79077,single_cell,IFN-gamma,GSE79077,GSE79077,bulk_GEO,1,IFNG,myeloid,array,primary,macrophage
+sc|IFN-gamma|GSE80325,single_cell,IFN-gamma,GSE80325,GSE103500,bulk_GEO,1,IFNG,mixed_blood,array,primary,whole blood
+sc|IFN-gamma|GSE82227,single_cell,IFN-gamma,GSE82227,GSE82227,bulk_GEO,2,IFNG,myeloid,RNA-seq,primary,macrophage
+sc|IFN-gamma|GSE8521,single_cell,IFN-gamma,GSE8521,GSE8521,bulk_GEO,4,IFNG,stromal,array,primary,fibroblast
+sc|IFN-gamma|GSE85898,single_cell,IFN-gamma,GSE85898,GSE85898,bulk_GEO,1,IFNG,nan,array,cell_line,unknown
+sc|IFN-gamma|GSE97979,single_cell,IFN-gamma,GSE97979,GSE97979,bulk_GEO,2,IFNG,embryonic kidney,RNA-seq,cell_line,cell line HEK293
+sc|IFN-gamma|GSE98369,single_cell,IFN-gamma,GSE98369,GSE98368,bulk_GEO,3,IFNG,myeloid,RNA-seq,primary,macrophage
+sc|IFN-lambda3|GSE31193,single_cell,IFN-lambda3,GSE31193,GSE31193,bulk_GEO,1,IFNL3,nan,array,unknown,unknown
+sc|IFN-lambda3|GSE31264,single_cell,IFN-lambda3,GSE31264,GSE31264,bulk_GEO,1,IFNL3,epithelial,array,primary,hepatocyte
+sc|IFN-lambda3|GSE31455,single_cell,IFN-lambda3,GSE31455,GSE31455,bulk_GEO,1,IFNL3,epithelial,array,primary,hepatocyte
+sc|IFN-lambda3|GSE48400,single_cell,IFN-lambda3,GSE48400,GSE48400,bulk_GEO,6,IFNL3,epithelial (hepatoma),array,cell_line,cell line Huh7 (hepatoma)
+sc|IGF-1|GSE109022,single_cell,IGF-1,GSE109022,GSE109022,bulk_GEO,1,IGF1,nan,array,cell_line,unknown
+sc|IGF-1|GSE18955,single_cell,IGF-1,GSE18955,GSE18953;GSE18954,bulk_GEO,2,IGF1,mixed,array,cell_line,cell line MCF-7;fibroblast
+sc|IGF-1|GSE26834,single_cell,IGF-1,GSE26834,GSE26834,bulk_GEO,2,IGF1,epithelial (breast carcinoma),array,cell_line,cell line MCF-7
+sc|IGF-1|GSE59409,single_cell,IGF-1,GSE59409,GSE59343,bulk_GEO,2,IGF1,nan,array,cell_line,cell line WM35 melanoma
+sc|IGF-1|GSE7561,single_cell,IGF-1,GSE7561,GSE7561,bulk_GEO,2,IGF1,epithelial (breast carcinoma),array,cell_line,cell line MCF-7
+sc|IL-1-alpha|GSE25400,single_cell,IL-1-alpha,GSE25400,GSE25400,bulk_GEO,1,IL1A,epithelial,array,primary,keratinocyte
+sc|IL-1-alpha|GSE52470,single_cell,IL-1-alpha,GSE52470,GSE52465,bulk_GEO,10,IL1A,epithelial (cervical carcinoma),array,cell_line,cell line HeLa
+sc|IL-1-alpha|GSE56678,single_cell,IL-1-alpha,GSE56678,GSE56678,bulk_GEO,3,IL1A,epithelial (lung carcinoma),array,cell_line,cell line Calu-3
+sc|IL-1-beta|GSE101868,single_cell,IL-1-beta,GSE101868,GSE101868,bulk_GEO,1,IL1B,epithelial,RNA-seq,cell_line,epithelial cell
+sc|IL-1-beta|GSE115311,single_cell,IL-1-beta,GSE115311,GSE115311,bulk_GEO,3,IL1B,stromal,RNA-seq,primary,mesenchymal stem cell
+sc|IL-1-beta|GSE120411,single_cell,IL-1-beta,GSE120411,GSE120411,bulk_GEO,1,IL1B,neural,RNA-seq,stem_cell_derived,astrocyte
+sc|IL-1-beta|GSE120784,single_cell,IL-1-beta,GSE120784,GSE120784,bulk_GEO,4,IL1B,mixed,RNA-seq,primary;unknown,endothelial cell;keratinocyte;skin fibroblast;unknown
+sc|IL-1-beta|GSE121241,single_cell,IL-1-beta,GSE121241,GSE121241,bulk_GEO,1,IL1B,stromal,RNA-seq,primary,fibroblast of lung
+sc|IL-1-beta|GSE125508,single_cell,IL-1-beta,GSE125508,GSE125508,bulk_GEO,1,IL1B,endothelial,array,primary,endothelial cell
+sc|IL-1-beta|GSE127457,single_cell,IL-1-beta,GSE127457,GSE127457,bulk_GEO,1,IL1B,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-1-beta|GSE13168,single_cell,IL-1-beta,GSE13168,GSE13168,bulk_GEO,2,IL1B,muscle,array,primary,bronchial smooth muscle cell
+sc|IL-1-beta|GSE134896,single_cell,IL-1-beta,GSE134896,GSE134896,bulk_GEO,1,IL1B,lymphoid,RNA-seq,primary,B cell
+sc|IL-1-beta|GSE139377,single_cell,IL-1-beta,GSE139377,GSE139377,bulk_GEO,1,IL1B,endothelial,RNA-seq,primary,endothelial cell
+sc|IL-1-beta|GSE154571,single_cell,IL-1-beta,GSE154571,GSE154571,bulk_GEO,1,IL1B,stromal,array,primary,fibroblast
+sc|IL-1-beta|GSE201555,single_cell,IL-1-beta,GSE201555,GSE201555,bulk_GEO,1,IL1B,neural,array,primary,astrocyte
+sc|IL-1-beta|GSE237151,single_cell,IL-1-beta,GSE237151,GSE237151,bulk_GEO,2,IL1B,stromal,RNA-seq,primary,mesenchymal stem cell
+sc|IL-1-beta|GSE25742,single_cell,IL-1-beta,GSE25742,GSE25742,bulk_GEO,2,IL1B,mixed_blood,array,primary,whole blood
+sc|IL-1-beta|GSE26315,single_cell,IL-1-beta,GSE26315,GSE26315,bulk_GEO,2,IL1B,nan,array,unknown,unknown
+sc|IL-1-beta|GSE26702,single_cell,IL-1-beta,GSE26702,GSE26702,bulk_GEO,1,IL1B,epithelial,array,cell_line,epithelial cell
+sc|IL-1-beta|GSE31064,single_cell,IL-1-beta,GSE31064,GSE31064,bulk_GEO,3,IL1B,stromal,array,primary,fibroblast
+sc|IL-1-beta|GSE31679,single_cell,IL-1-beta,GSE31679,GSE31679,bulk_GEO,3,IL1B,epithelial,array,cell_line,trophoblast cell
+sc|IL-1-beta|GSE32390,single_cell,IL-1-beta,GSE32390,GSE32390,bulk_GEO,1,IL1B,stromal,array,primary,fibroblast
+sc|IL-1-beta|GSE37624,single_cell,IL-1-beta,GSE37624,GSE37624,bulk_GEO,1,IL1B,endothelial,array,primary,endothelial cell of umbilical vein
+sc|IL-1-beta|GSE40752,single_cell,IL-1-beta,GSE40752,GSE40560;GSE40838,bulk_GEO,10,IL1B,mixed_blood,array,primary,fibroblast;peripheral blood mononuclear cell
+sc|IL-1-beta|GSE49604,single_cell,IL-1-beta,GSE49604,GSE49604,bulk_GEO,2,IL1B,stromal,array,cell_line,synovial fibroblast
+sc|IL-1-beta|GSE5054,single_cell,IL-1-beta,GSE5054,GSE5054,bulk_GEO,2,IL1B,nan,array,unknown,unknown
+sc|IL-1-beta|GSE54608,single_cell,IL-1-beta,GSE54608,GSE54608,bulk_GEO,1,IL1B,epithelial,array,cell_line,epithelial cell
+sc|IL-1-beta|GSE56681,single_cell,IL-1-beta,GSE56681,GSE56681,bulk_GEO,1,IL1B,myeloid,array,primary,monocyte
+sc|IL-1-beta|GSE58220,single_cell,IL-1-beta,GSE58220,GSE58220,bulk_GEO,1,IL1B,stromal,array,primary,fibroblast
+sc|IL-1-beta|GSE59671,single_cell,IL-1-beta,GSE59671,GSE59671,bulk_GEO,9,IL1B,muscle,array,primary,smooth muscle cell
+sc|IL-1-beta|GSE59740,single_cell,IL-1-beta,GSE59740,GSE59740,bulk_GEO,1,IL1B,muscle,array,cell_line,vascular associated smooth muscle cell
+sc|IL-1-beta|GSE62208,single_cell,IL-1-beta,GSE62208,GSE62208,bulk_GEO,1,IL1B,epithelial,array,cell_line,intestinal epithelial cell
+sc|IL-1-beta|GSE67295,single_cell,IL-1-beta,GSE67295,GSE67295,bulk_GEO,1,IL1B,epithelial (breast carcinoma),RNA-seq,cell_line,cell line MCF-7
+sc|IL-1-beta|GSE7216,single_cell,IL-1-beta,GSE7216,GSE7216,bulk_GEO,1,IL1B,epithelial,array,primary,keratinocyte
+sc|IL-1-beta|GSE74220,single_cell,IL-1-beta,GSE74220,GSE74220,bulk_GEO,1,IL1B,stromal,RNA-seq,primary,chondrocyte
+sc|IL-1-beta|GSE80325,single_cell,IL-1-beta,GSE80325,GSE103500,bulk_GEO,1,IL1B,mixed_blood,array,primary,whole blood
+sc|IL-1-beta|GSE85987,single_cell,IL-1-beta,GSE85987,GSE85986,bulk_GEO,2,IL1B,endothelial,array,primary,endothelial cell of umbilical vein
+sc|IL-1-beta|GSE86798,single_cell,IL-1-beta,GSE86798,GSE86798,bulk_GEO,1,IL1B,stromal,array,primary,skin fibroblast
+sc|IL-1-beta|GSE89970,single_cell,IL-1-beta,GSE89970,GSE89970,bulk_GEO,1,IL1B,endothelial,RNA-seq,primary,endothelial cell
+sc|IL-10|GSE100521,single_cell,IL-10,GSE100521,GSE100521,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+sc|IL-10|GSE15390,single_cell,IL-10,GSE15390,GSE15390,bulk_GEO,1,IL10,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-10|GSE17493,single_cell,IL-10,GSE17493,GSE17493,bulk_GEO,2,IL10,mixed,array,primary,dendritic cell;peripheral blood mononuclear cell
+sc|IL-10|GSE35683,single_cell,IL-10,GSE35683,GSE35683,bulk_GEO,2,IL10,myeloid,array,primary,monocyte;neutrophil
+sc|IL-10|GSE43700,single_cell,IL-10,GSE43700,GSE43700,bulk_GEO,1,IL10,myeloid,array,primary,monocyte
+sc|IL-10|GSE45466,single_cell,IL-10,GSE45466,GSE45466,bulk_GEO,5,IL10,myeloid,array,primary,dendritic cell
+sc|IL-10|GSE47538,single_cell,IL-10,GSE47538,GSE47538,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+sc|IL-10|GSE59184,single_cell,IL-10,GSE59184,GSE59184,bulk_GEO,2,IL10,nan,array,unknown,unknown
+sc|IL-10|GSE61298,single_cell,IL-10,GSE61298,GSE61298,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+sc|IL-10|GSE78095,single_cell,IL-10,GSE78095,GSE78095,bulk_GEO,2,IL10,mixed,array,primary,epithelial cell;mesenchymal stem cell
+sc|IL-10|GSE82316,single_cell,IL-10,GSE82316,GSE82166,bulk_GEO,1,IL10,myeloid,array,primary,monocyte
+sc|IL-10|GSE89610,single_cell,IL-10,GSE89610,GSE89610,bulk_GEO,1,IL10,epithelial,array,cell_line,hepatocyte
+sc|IL-12|GSE119193,single_cell,IL-12,GSE119193,GSE119191,bulk_GEO,1,IL12_complex,lymphoid,RNA-seq,primary,regulatory T cell
+sc|IL-12|GSE12839,single_cell,IL-12,GSE12839,GSE12839,bulk_GEO,2,IL12_complex,mixed_blood,array,primary,peripheral blood mononuclear cell
+sc|IL-12|GSE32959,single_cell,IL-12,GSE32959,GSE32959,bulk_GEO,4,IL12_complex,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-12|GSE63038,single_cell,IL-12,GSE63038,GSE63038,bulk_GEO,1,IL12_complex,lymphoid,array,primary,natural killer cell
+sc|IL-13|GSE106812,single_cell,IL-13,GSE106812,GSE106812,bulk_GEO,1,IL13,epithelial,array,primary,airway epithelial cell
+sc|IL-13|GSE110799,single_cell,IL-13,GSE110799,GSE110799,bulk_GEO,1,IL13,epithelial,array,primary,epithelial cell
+sc|IL-13|GSE116927,single_cell,IL-13,GSE116927,GSE116927,bulk_GEO,1,IL13,epithelial,RNA-seq,primary,airway epithelial cell
+sc|IL-13|GSE120086,single_cell,IL-13,GSE120086,GSE120086,bulk_GEO,2,IL13,myeloid,RNA-seq,primary,macrophage
+sc|IL-13|GSE190705,single_cell,IL-13,GSE190705,GSE190705,bulk_GEO,1,IL13,nan,RNA-seq,stem_cell_derived,unknown
+sc|IL-13|GSE220972,single_cell,IL-13,GSE220972,GSE220972,bulk_GEO,1,IL13,muscle,RNA-seq,cell_line,bronchial smooth muscle cell
+sc|IL-13|GSE23591,single_cell,IL-13,GSE23591,GSE23591,bulk_GEO,2,IL13,lymphoid,array,cell_line,B cell
+sc|IL-13|GSE3183,single_cell,IL-13,GSE3183,GSE3183,bulk_GEO,3,IL13,nan,array,cell_line,unknown
+sc|IL-13|GSE36287,single_cell,IL-13,GSE36287,GSE36287,bulk_GEO,1,IL13,epithelial,array,primary,keratinocyte
+sc|IL-13|GSE37693,single_cell,IL-13,GSE37693,GSE37693,bulk_GEO,1,IL13,epithelial,array,primary,airway epithelial cell
+sc|IL-13|GSE47527,single_cell,IL-13,GSE47527,GSE47527,bulk_GEO,3,IL13,stromal,array,cell_line,fibroblast of lung
+sc|IL-13|GSE47538,single_cell,IL-13,GSE47538,GSE47538,bulk_GEO,4,IL13,myeloid,array,primary,fibroblast of lung;macrophage;monocyte
+sc|IL-13|GSE47542,single_cell,IL-13,GSE47542,GSE47542,bulk_GEO,2,IL13,stromal,array,cell_line,fibroblast of lung
+sc|IL-13|GSE56308,single_cell,IL-13,GSE56308,GSE56308,bulk_GEO,5,IL13,stromal,array,primary,skin fibroblast
+sc|IL-13|GSE56338,single_cell,IL-13,GSE56338,GSE56338,bulk_GEO,1,IL13,stromal,array,cell_line,fibroblast of lung
+sc|IL-13|GSE57677,single_cell,IL-13,GSE57677,GSE57677,bulk_GEO,2,IL13,nan,array,cell_line,unknown
+sc|IL-13|GSE65335,single_cell,IL-13,GSE65335,GSE65335,bulk_GEO,1,IL13,epithelial,RNA-seq,cell_line,epithelial cell
+sc|IL-13|GSE79027,single_cell,IL-13,GSE79027,GSE79027,bulk_GEO,1,IL13,mixed_blood,RNA-seq,primary,peripheral blood mononuclear cell
+sc|IL-15|GSE154644,single_cell,IL-15,GSE154644,GSE154644,bulk_GEO,2,IL15,lymphoid,RNA-seq,primary,"CD8-positive, alpha-beta T cell"
+sc|IL-15|GSE210203,single_cell,IL-15,GSE210203,GSE210203,bulk_GEO,4,IL15,stromal,RNA-seq,cell_line,fat cell
+sc|IL-15|GSE22886,single_cell,IL-15,GSE22886,GSE22886,bulk_GEO,2,IL15,lymphoid,array,primary,natural killer cell
+sc|IL-15|GSE59184,single_cell,IL-15,GSE59184,GSE59184,bulk_GEO,2,IL15,nan,array,unknown,unknown
+sc|IL-15|GSE69072,single_cell,IL-15,GSE69072,GSE69072,bulk_GEO,1,IL15,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+sc|IL-15|GSE70214,single_cell,IL-15,GSE70214,GSE70214,bulk_GEO,2,IL15,lymphoid,array,primary,natural killer cell
+sc|IL-17A|GSE119047,single_cell,IL-17A,GSE119047,GSE119047,bulk_GEO,1,IL17A,stromal,RNA-seq,primary,hepatic stellate cell
+sc|IL-17A|GSE127757,single_cell,IL-17A,GSE127757,GSE127757,bulk_GEO,4,IL17A,epithelial,array,stem_cell_derived,intestinal epithelial cell
+sc|IL-17A|GSE142552,single_cell,IL-17A,GSE142552,GSE142552,bulk_GEO,1,IL17A,epithelial,array,primary,keratinocyte
+sc|IL-17A|GSE159406,single_cell,IL-17A,GSE159406,GSE159406,bulk_GEO,2,IL17A,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-17A|GSE190634,single_cell,IL-17A,GSE190634,GSE190634,bulk_GEO,1,IL17A,nan,RNA-seq,stem_cell_derived,unknown
+sc|IL-17A|GSE27533,single_cell,IL-17A,GSE27533,GSE27533,bulk_GEO,1,IL17A,epithelial,array,cell_line,keratinocyte
+sc|IL-17A|GSE36287,single_cell,IL-17A,GSE36287,GSE36287,bulk_GEO,1,IL17A,epithelial,array,primary,keratinocyte
+sc|IL-17A|GSE53163,single_cell,IL-17A,GSE53163,GSE53163,bulk_GEO,1,IL17A,myeloid,array,primary,dendritic cell
+sc|IL-17A|GSE53751,single_cell,IL-17A,GSE53751,GSE53751,bulk_GEO,1,IL17A,epithelial,array,primary,keratinocyte
+sc|IL-17A|GSE54884,single_cell,IL-17A,GSE54884,GSE54884,bulk_GEO,1,IL17A,myeloid,array,primary,CD14-positive monocyte
+sc|IL-17A|GSE80325,single_cell,IL-17A,GSE80325,GSE103500,bulk_GEO,1,IL17A,mixed_blood,array,primary,whole blood
+sc|IL-2|GSE22886,single_cell,IL-2,GSE22886,GSE22886,bulk_GEO,2,IL2,lymphoid,array,primary,natural killer cell
+sc|IL-2|GSE36975,single_cell,IL-2,GSE36975,GSE36975,bulk_GEO,2,IL2,lymphoid,array,primary,B cell
+sc|IL-2|GSE40624,single_cell,IL-2,GSE40624,GSE40618,bulk_GEO,1,IL2,nan,array,cell_line,unknown
+sc|IL-2|GSE64713,single_cell,IL-2,GSE64713,GSE64713,bulk_GEO,1,IL2,lymphoid,RNA-seq,primary,"CD8-positive, alpha-beta T cell"
+sc|IL-2|GSE74375,single_cell,IL-2,GSE74375,GSE74375,bulk_GEO,1,IL2,myeloid,array,primary,basophil
+sc|IL-2|GSE7571,single_cell,IL-2,GSE7571,GSE7571,bulk_GEO,5,IL2,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-2|GSE7572,single_cell,IL-2,GSE7572,GSE7572,bulk_GEO,5,IL2,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+sc|IL-22|GSE10240,single_cell,IL-22,GSE10240,GSE10240,bulk_GEO,1,IL22,epithelial,array,primary,airway epithelial cell
+sc|IL-22|GSE104509,single_cell,IL-22,GSE104509,GSE104509,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+sc|IL-22|GSE119047,single_cell,IL-22,GSE119047,GSE119047,bulk_GEO,1,IL22,stromal,RNA-seq,primary,hepatic stellate cell
+sc|IL-22|GSE149262,single_cell,IL-22,GSE149262,GSE149262,bulk_GEO,4,IL22,epithelial (colorectal carcinoma),RNA-seq,cell_line,cell line DLD-1
+sc|IL-22|GSE190634,single_cell,IL-22,GSE190634,GSE190634,bulk_GEO,1,IL22,nan,RNA-seq,stem_cell_derived,unknown
+sc|IL-22|GSE53751,single_cell,IL-22,GSE53751,GSE53751,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+sc|IL-22|GSE7216,single_cell,IL-22,GSE7216,GSE7216,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+sc|IL-22|GSE72396,single_cell,IL-22,GSE72396,GSE72396,bulk_GEO,1,IL22,keratinocyte (immortalised),array,cell_line,cell line HaCaT
+sc|IL-22|GSE74389,single_cell,IL-22,GSE74389,GSE74389,bulk_GEO,1,IL22,nan,array,unknown,unknown
+sc|IL-22|GSE89610,single_cell,IL-22,GSE89610,GSE89610,bulk_GEO,2,IL22,epithelial,array,cell_line,hepatocyte
+sc|IL-27|GSE143228,single_cell,IL-27,GSE143228,GSE143228,bulk_GEO,2,IL27_complex,mixed,array,cell_line;primary,cell line THP-1;keratinocyte
+sc|IL-27|GSE201555,single_cell,IL-27,GSE201555,GSE201555,bulk_GEO,1,IL27_complex,neural,array,primary,astrocyte
+sc|IL-27|GSE89610,single_cell,IL-27,GSE89610,GSE89610,bulk_GEO,1,IL27_complex,epithelial,array,cell_line,hepatocyte
+sc|IL-3|GSE110041,single_cell,IL-3,GSE110041,GSE110041,bulk_GEO,8,IL3,mixed_blood,RNA-seq,primary,whole blood
+sc|IL-3|GSE235635,single_cell,IL-3,GSE235635,GSE235635,bulk_GEO,1,IL3,epithelial,array,cell_line,keratinocyte
+sc|IL-3|GSE89442,single_cell,IL-3,GSE89442,GSE89442,bulk_GEO,1,IL3,myeloid,RNA-seq,primary,dendritic cell
+sc|IL-33|GSE196895,single_cell,IL-33,GSE196895,GSE196862,bulk_GEO,1,IL33,myeloid,RNA-seq,primary,mast cell
+sc|IL-33|GSE25742,single_cell,IL-33,GSE25742,GSE25742,bulk_GEO,2,IL33,mixed_blood,array,primary,whole blood
+sc|IL-33|GSE37624,single_cell,IL-33,GSE37624,GSE37624,bulk_GEO,1,IL33,endothelial,array,primary,endothelial cell of umbilical vein
+sc|IL-33|GSE45458,single_cell,IL-33,GSE45458,GSE45458,bulk_GEO,2,IL33,lymphoid,array,primary,innate lymphoid cell
+sc|IL-4|GSE100521,single_cell,IL-4,GSE100521,GSE100521,bulk_GEO,1,IL4,myeloid,array,primary,macrophage
+sc|IL-4|GSE108038,single_cell,IL-4,GSE108038,GSE108038,bulk_GEO,1,IL4,neural,RNA-seq,primary,astrocyte
+sc|IL-4|GSE120084,single_cell,IL-4,GSE120084,GSE120084,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+sc|IL-4|GSE120086,single_cell,IL-4,GSE120086,GSE120086,bulk_GEO,2,IL4,myeloid,RNA-seq,primary,macrophage
+sc|IL-4|GSE123603,single_cell,IL-4,GSE123603,GSE123603,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+sc|IL-4|GSE132732,single_cell,IL-4,GSE132732,GSE132732,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+sc|IL-4|GSE16387,single_cell,IL-4,GSE16387,GSE16385,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+sc|IL-4|GSE18017,single_cell,IL-4,GSE18017,GSE17974,bulk_GEO,9,IL4,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-4|GSE215801,single_cell,IL-4,GSE215801,GSE215801,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+sc|IL-4|GSE222284,single_cell,IL-4,GSE222284,GSE222284,bulk_GEO,2,IL4,myeloid,RNA-seq,cell_line,macrophage
+sc|IL-4|GSE32959,single_cell,IL-4,GSE32959,GSE32959,bulk_GEO,4,IL4,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-4|GSE35304,single_cell,IL-4,GSE35304,GSE35304,bulk_GEO,4,IL4,myeloid,array,primary,monocyte
+sc|IL-4|GSE35495,single_cell,IL-4,GSE35495,GSE35433;GSE35434,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+sc|IL-4|GSE36287,single_cell,IL-4,GSE36287,GSE36287,bulk_GEO,1,IL4,epithelial,array,primary,keratinocyte
+sc|IL-4|GSE47527,single_cell,IL-4,GSE47527,GSE47527,bulk_GEO,1,IL4,stromal,array,cell_line,fibroblast of lung
+sc|IL-4|GSE47538,single_cell,IL-4,GSE47538,GSE47538,bulk_GEO,4,IL4,myeloid,array,primary,fibroblast of lung;macrophage;monocyte
+sc|IL-4|GSE47542,single_cell,IL-4,GSE47542,GSE47542,bulk_GEO,2,IL4,stromal,array,cell_line,fibroblast of lung
+sc|IL-4|GSE4846,single_cell,IL-4,GSE4846,GSE4846,bulk_GEO,1,IL4,lymphoid (Burkitt),array,cell_line,cell line Daudi
+sc|IL-4|GSE53751,single_cell,IL-4,GSE53751,GSE53751,bulk_GEO,1,IL4,epithelial,array,primary,keratinocyte
+sc|IL-4|GSE55288,single_cell,IL-4,GSE55288,GSE55288,bulk_GEO,2,IL4,lymphoid,array,primary,B cell
+sc|IL-4|GSE56308,single_cell,IL-4,GSE56308,GSE56308,bulk_GEO,5,IL4,stromal,array,primary,skin fibroblast
+sc|IL-4|GSE59184,single_cell,IL-4,GSE59184,GSE59184,bulk_GEO,2,IL4,nan,array,unknown,unknown
+sc|IL-4|GSE61298,single_cell,IL-4,GSE61298,GSE61298,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+sc|IL-4|GSE71810,single_cell,IL-4,GSE71810,GSE71810,bulk_GEO,1,IL4,lymphoid,array,primary,B cell
+sc|IL-4|GSE78914,single_cell,IL-4,GSE78914,GSE78914,bulk_GEO,4,IL4,epithelial,array,primary,airway epithelial cell
+sc|IL-6|GSE113185,single_cell,IL-6,GSE113185,GSE113185,bulk_GEO,1,IL6,epithelial,RNA-seq,primary,airway epithelial cell
+sc|IL-6|GSE120411,single_cell,IL-6,GSE120411,GSE120411,bulk_GEO,1,IL6,neural,RNA-seq,stem_cell_derived,astrocyte
+sc|IL-6|GSE123603,single_cell,IL-6,GSE123603,GSE123603,bulk_GEO,1,IL6,myeloid,RNA-seq,primary,macrophage
+sc|IL-6|GSE126006,single_cell,IL-6,GSE126006,GSE126003,bulk_GEO,6,IL6,epithelial (breast carcinoma),RNA-seq,cell_line,cell line MCF-7;cell line T-47D
+sc|IL-6|GSE126525,single_cell,IL-6,GSE126525,GSE126525,bulk_GEO,1,IL6,myeloid,array,cell_line,macrophage
+sc|IL-6|GSE14632,single_cell,IL-6,GSE14632,GSE14632,bulk_GEO,1,IL6,epithelial (hepatoblastoma),array,cell_line,cell line HepG2
+sc|IL-6|GSE149262,single_cell,IL-6,GSE149262,GSE149262,bulk_GEO,4,IL6,epithelial (colorectal carcinoma),RNA-seq,cell_line,cell line DLD-1
+sc|IL-6|GSE202045,single_cell,IL-6,GSE202045,GSE202045,bulk_GEO,4,IL6,epithelial,RNA-seq,cell_line,hepatocyte
+sc|IL-6|GSE216734,single_cell,IL-6,GSE216734,GSE216734,bulk_GEO,2,IL6,lymphoid,RNA-seq,primary,"CD8-positive, alpha-beta T cell"
+sc|IL-6|GSE45466,single_cell,IL-6,GSE45466,GSE45466,bulk_GEO,5,IL6,myeloid,array,primary,dendritic cell
+sc|IL-6|GSE47973,single_cell,IL-6,GSE47973,GSE47973,bulk_GEO,2,IL6,mixed,array,cell_line,cell line LNCaP;unknown
+sc|IL-6|GSE53751,single_cell,IL-6,GSE53751,GSE53751,bulk_GEO,1,IL6,epithelial,array,primary,keratinocyte
+sc|IL-6|GSE54331,single_cell,IL-6,GSE54331,GSE54329,bulk_GEO,30,IL6,epithelial (breast carcinoma),array,cell_line,cell line MCF-7;cell line T-47D
+sc|IL-6|GSE68826,single_cell,IL-6,GSE68826,GSE68826,bulk_GEO,1,IL6,"epithelial (proximal tubule, immortalised)",array,cell_line,cell line HK-2
+sc|IL-6|GSE78922,single_cell,IL-6,GSE78922,GSE78922,bulk_GEO,1,IL6,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-7|GSE103643,single_cell,IL-7,GSE103643,GSE103643,bulk_GEO,2,IL7,mixed_blood,RNA-seq,primary,peripheral blood mononuclear cell
+sc|IL-7|GSE37584,single_cell,IL-7,GSE37584,GSE37584,bulk_GEO,3,IL7,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|IL-7|GSE96888,single_cell,IL-7,GSE96888,GSE96888,bulk_GEO,2,IL7,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|LAP-TGF-beta1|GSE100574,single_cell,LAP-TGF-beta1,GSE100574,GSE100574,bulk_GEO,1,TGFB1,epithelial,RNA-seq,cell_line,airway epithelial cell
+sc|LAP-TGF-beta1|GSE102483,single_cell,LAP-TGF-beta1,GSE102483,GSE102483,bulk_GEO,2,TGFB1,myeloid (erythroleukaemia),array,cell_line,cell line TF-1
+sc|LAP-TGF-beta1|GSE102674,single_cell,LAP-TGF-beta1,GSE102674,GSE102674,bulk_GEO,1,TGFB1,stromal,RNA-seq,primary,fibroblast of lung
+sc|LAP-TGF-beta1|GSE113630,single_cell,LAP-TGF-beta1,GSE113630,GSE113630,bulk_GEO,4,TGFB1,endothelial,array,primary,endothelial cell of umbilical vein
+sc|LAP-TGF-beta1|GSE117329,single_cell,LAP-TGF-beta1,GSE117329,GSE117329,bulk_GEO,3,TGFB1,stromal,RNA-seq,primary,hepatic stellate cell
+sc|LAP-TGF-beta1|GSE131998,single_cell,LAP-TGF-beta1,GSE131998,GSE131998,bulk_GEO,2,TGFB1,muscle,RNA-seq,primary,smooth muscle cell
+sc|LAP-TGF-beta1|GSE137110,single_cell,LAP-TGF-beta1,GSE137110,GSE137107,bulk_GEO,6,TGFB1,stromal,array,primary,skin fibroblast
+sc|LAP-TGF-beta1|GSE142417,single_cell,LAP-TGF-beta1,GSE142417,GSE142417,bulk_GEO,5,TGFB1,muscle,RNA-seq,primary,vascular associated smooth muscle cell
+sc|LAP-TGF-beta1|GSE15390,single_cell,LAP-TGF-beta1,GSE15390,GSE15390,bulk_GEO,4,TGFB1,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|LAP-TGF-beta1|GSE16416,single_cell,LAP-TGF-beta1,GSE16416,GSE16416,bulk_GEO,2,TGFB1,fibroblast (foreskin),array,cell_line,cell line BJ
+sc|LAP-TGF-beta1|GSE17518,single_cell,LAP-TGF-beta1,GSE17518,GSE17518,bulk_GEO,1,TGFB1,fibroblast (fetal lung),array,cell_line,cell line IMR-90
+sc|LAP-TGF-beta1|GSE17708,single_cell,LAP-TGF-beta1,GSE17708,GSE17708,bulk_GEO,8,TGFB1,epithelial (lung carcinoma),array,cell_line,cell line A549
+sc|LAP-TGF-beta1|GSE17909,single_cell,LAP-TGF-beta1,GSE17909,GSE17909,bulk_GEO,2,TGFB1,myeloid (monocytic leukaemia),array,cell_line,cell line THP-1
+sc|LAP-TGF-beta1|GSE210498,single_cell,LAP-TGF-beta1,GSE210498,GSE210498,bulk_GEO,6,TGFB1,epithelial,RNA-seq,cell_line,mammary gland epithelial cell
+sc|LAP-TGF-beta1|GSE210499,single_cell,LAP-TGF-beta1,GSE210499,GSE210499,bulk_GEO,6,TGFB1,epithelial,RNA-seq,cell_line,mammary gland epithelial cell
+sc|LAP-TGF-beta1|GSE211806,single_cell,LAP-TGF-beta1,GSE211806,GSE211806,bulk_GEO,2,TGFB1,nan,array,cell_line,unknown
+sc|LAP-TGF-beta1|GSE220972,single_cell,LAP-TGF-beta1,GSE220972,GSE220972,bulk_GEO,1,TGFB1,muscle,RNA-seq,cell_line,bronchial smooth muscle cell
+sc|LAP-TGF-beta1|GSE23338,single_cell,LAP-TGF-beta1,GSE23338,GSE23338,bulk_GEO,2,TGFB1,epithelial,array,cell_line,kidney epithelial cell
+sc|LAP-TGF-beta1|GSE25200,single_cell,LAP-TGF-beta1,GSE25200,GSE25200,bulk_GEO,2,TGFB1,stromal,array,cell_line,fibroblast
+sc|LAP-TGF-beta1|GSE26858,single_cell,LAP-TGF-beta1,GSE26858,GSE26858,bulk_GEO,3,TGFB1,epithelial (lung carcinoma),array,cell_line,cell line A549
+sc|LAP-TGF-beta1|GSE2705,single_cell,LAP-TGF-beta1,GSE2705,GSE2705,bulk_GEO,1,TGFB1,nan,array,unknown,unknown
+sc|LAP-TGF-beta1|GSE27165,single_cell,LAP-TGF-beta1,GSE27165,GSE27165,bulk_GEO,2,TGFB1,stromal,array,primary,fibroblast
+sc|LAP-TGF-beta1|GSE37994,single_cell,LAP-TGF-beta1,GSE37994,GSE37994,bulk_GEO,1,TGFB1,epithelial,array,cell_line,keratinocyte
+sc|LAP-TGF-beta1|GSE39397,single_cell,LAP-TGF-beta1,GSE39397,GSE39394,bulk_GEO,1,TGFB1,nan,array,cell_line,cell line CCD-Co-18
+sc|LAP-TGF-beta1|GSE40266,single_cell,LAP-TGF-beta1,GSE40266,GSE40266,bulk_GEO,1,TGFB1,stromal,array,cell_line,fibroblast
+sc|LAP-TGF-beta1|GSE40374,single_cell,LAP-TGF-beta1,GSE40374,GSE40374,bulk_GEO,1,TGFB1,epithelial,array,cell_line,airway epithelial cell
+sc|LAP-TGF-beta1|GSE45945,single_cell,LAP-TGF-beta1,GSE45945,GSE45945,bulk_GEO,5,TGFB1,epithelial (hepatoblastoma),array,cell_line,cell line HepG2
+sc|LAP-TGF-beta1|GSE57441,single_cell,LAP-TGF-beta1,GSE57441,GSE57441,bulk_GEO,1,TGFB1,stromal,array,cell_line,fibroblast
+sc|LAP-TGF-beta1|GSE59953,single_cell,LAP-TGF-beta1,GSE59953,GSE59953,bulk_GEO,1,TGFB1,stromal,array,primary,hepatic stellate cell
+sc|LAP-TGF-beta1|GSE61128,single_cell,LAP-TGF-beta1,GSE61128,GSE61128,bulk_GEO,7,TGFB1,muscle,array,primary,fibroblast;smooth muscle cell
+sc|LAP-TGF-beta1|GSE63659,single_cell,LAP-TGF-beta1,GSE63659,GSE63659,bulk_GEO,1,TGFB1,stromal,array,cell_line,fibroblast
+sc|LAP-TGF-beta1|GSE65069,single_cell,LAP-TGF-beta1,GSE65069,GSE65069,bulk_GEO,2,TGFB1,stromal,array,primary,fibroblast
+sc|LAP-TGF-beta1|GSE7144,single_cell,LAP-TGF-beta1,GSE7144,GSE7144,bulk_GEO,1,TGFB1,nan,array,unknown,unknown
+sc|LAP-TGF-beta1|GSE82299,single_cell,LAP-TGF-beta1,GSE82299,GSE82293,bulk_GEO,1,TGFB1,epithelial (pancreatic carcinoma),array,cell_line,cell line PANC-1
+sc|LAP-TGF-beta1|GSE97117,single_cell,LAP-TGF-beta1,GSE97117,GSE96975,bulk_GEO,1,TGFB1,stromal,RNA-seq,primary,fibroblast of cardiac tissue
+sc|M-CSF|GSE107006,single_cell,M-CSF,GSE107006,GSE107006,bulk_GEO,1,CSF1,hematopoietic_progenitor,RNA-seq,primary,hematopoietic stem/progenitor cell
+sc|M-CSF|GSE35495,single_cell,M-CSF,GSE35495,GSE5099,bulk_GEO,4,CSF1,myeloid,array,primary,CD14-positive monocyte
+sc|M-CSF|GSE99609,single_cell,M-CSF,GSE99609,GSE99609,bulk_GEO,1,CSF1,myeloid,array,primary,monocyte
+sc|OSM|GSE13046,single_cell,OSM,GSE13046,GSE13046,bulk_GEO,1,OSM,epithelial (hepatoma),array,cell_line,cell line Huh-7
+sc|OSM|GSE29655,single_cell,OSM,GSE29655,GSE29655,bulk_GEO,1,OSM,stromal,array,cell_line,fibroblast of lung
+sc|OSM|GSE53295,single_cell,OSM,GSE53295,GSE53295,bulk_GEO,1,OSM,epithelial,array,cell_line,intestinal epithelial cell
+sc|RANKL|GSE171542,single_cell,RANKL,GSE171542,GSE171542,bulk_GEO,1,TNFSF11,myeloid,RNA-seq,primary,macrophage
+sc|RANKL|GSE29955,single_cell,RANKL,GSE29955,GSE29955,bulk_GEO,1,TNFSF11,muscle,array,primary,vascular associated smooth muscle cell
+sc|RANKL|GSE99987,single_cell,RANKL,GSE99987,GSE99987,bulk_GEO,3,TNFSF11,myeloid,RNA-seq,primary,macrophage
+sc|TNF-alpha|GSE101867,single_cell,TNF-alpha,GSE101867,GSE101867,bulk_GEO,1,TNF,nan,array,cell_line,unknown
+sc|TNF-alpha|GSE109460,single_cell,TNF-alpha,GSE109460,GSE109460,bulk_GEO,2,TNF,lymphoid (T-ALL),RNA-seq,cell_line,cell line 2D10 Jurkat
+sc|TNF-alpha|GSE115311,single_cell,TNF-alpha,GSE115311,GSE115311,bulk_GEO,9,TNF,mixed,RNA-seq,primary,endothelial cell;mesenchymal stem cell;vascular associated smooth muscle cell
+sc|TNF-alpha|GSE116936,single_cell,TNF-alpha,GSE116936,GSE116936,bulk_GEO,1,TNF,epithelial,RNA-seq,stem_cell_derived,intestinal epithelial cell
+sc|TNF-alpha|GSE119651,single_cell,TNF-alpha,GSE119651,GSE119651,bulk_GEO,2,TNF,trophoblast (choriocarcinoma),array,cell_line,cell line BeWo
+sc|TNF-alpha|GSE120411,single_cell,TNF-alpha,GSE120411,GSE120411,bulk_GEO,1,TNF,neural,RNA-seq,stem_cell_derived,astrocyte
+sc|TNF-alpha|GSE120550,single_cell,TNF-alpha,GSE120550,GSE120550,bulk_GEO,1,TNF,epithelial (breast carcinoma),array,cell_line,cell line MDA-MB-231
+sc|TNF-alpha|GSE121522,single_cell,TNF-alpha,GSE121522,GSE121958,bulk_GEO,1,TNF,endothelial,RNA-seq,primary,endothelial cell
+sc|TNF-alpha|GSE12161,single_cell,TNF-alpha,GSE12161,GSE12161,bulk_GEO,1,TNF,epithelial (hepatoblastoma),array,cell_line,cell line HepG2
+sc|TNF-alpha|GSE126200,single_cell,TNF-alpha,GSE126200,GSE126198,bulk_GEO,4,TNF,mixed,RNA-seq,cell_line;primary,cell line teloHAEC;endothelial cell
+sc|TNF-alpha|GSE126525,single_cell,TNF-alpha,GSE126525,GSE126525,bulk_GEO,1,TNF,myeloid,array,cell_line,macrophage
+sc|TNF-alpha|GSE129229,single_cell,TNF-alpha,GSE129229,GSE129210,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,macrophage
+sc|TNF-alpha|GSE129488,single_cell,TNF-alpha,GSE129488,GSE129484;GSE93720,bulk_GEO,5,TNF,nan,array,unknown,unknown
+sc|TNF-alpha|GSE132704,single_cell,TNF-alpha,GSE132704,GSE132704,bulk_GEO,1,TNF,epithelial (cervical carcinoma),RNA-seq,cell_line,cell line HeLa
+sc|TNF-alpha|GSE133968,single_cell,TNF-alpha,GSE133968,GSE133968,bulk_GEO,1,TNF,nan,array,cell_line,unknown
+sc|TNF-alpha|GSE136439,single_cell,TNF-alpha,GSE136439,GSE136439,bulk_GEO,9,TNF,epithelial (colorectal carcinoma),array,cell_line,cell line A549;cell line HT-29;cell line K-562;epithelial cell
+sc|TNF-alpha|GSE144785,single_cell,TNF-alpha,GSE144785,GSE144785,bulk_GEO,2,TNF,endothelial,RNA-seq,primary,endothelial cell
+sc|TNF-alpha|GSE157364,single_cell,TNF-alpha,GSE157364,GSE157364,bulk_GEO,2,TNF,mixed,RNA-seq,primary,macrophage;synovial fibroblast
+sc|TNF-alpha|GSE16650,single_cell,TNF-alpha,GSE16650,GSE16650,bulk_GEO,1,TNF,epithelial,array,cell_line,airway epithelial cell
+sc|TNF-alpha|GSE169018,single_cell,TNF-alpha,GSE169018,GSE169016;GSE169017,bulk_GEO,2,TNF,mixed,RNA-seq,cell_line;unknown,cell line MDA-MB-231;unknown
+sc|TNF-alpha|GSE187784,single_cell,TNF-alpha,GSE187784,GSE187784,bulk_GEO,3,TNF,stromal,RNA-seq,primary,skin fibroblast
+sc|TNF-alpha|GSE190634,single_cell,TNF-alpha,GSE190634,GSE190634,bulk_GEO,1,TNF,nan,RNA-seq,stem_cell_derived,unknown
+sc|TNF-alpha|GSE21728,single_cell,TNF-alpha,GSE21728,GSE21727,bulk_GEO,2,TNF,stromal,array,primary,osteoblast
+sc|TNF-alpha|GSE24767,single_cell,TNF-alpha,GSE24767,GSE24767,bulk_GEO,2,TNF,epithelial,array,primary,keratinocyte
+sc|TNF-alpha|GSE2504,single_cell,TNF-alpha,GSE2504,GSE2504,bulk_GEO,1,TNF,lymphoid,array,cell_line,T cell
+sc|TNF-alpha|GSE25742,single_cell,TNF-alpha,GSE25742,GSE25742,bulk_GEO,2,TNF,mixed_blood,array,primary,whole blood
+sc|TNF-alpha|GSE2624,single_cell,TNF-alpha,GSE2624,GSE2624,bulk_GEO,3,TNF,epithelial (cervical carcinoma),array,cell_line,cell line HeLa
+sc|TNF-alpha|GSE2638,single_cell,TNF-alpha,GSE2638,GSE2638,bulk_GEO,1,TNF,epithelial,array,primary,mammary gland epithelial cell
+sc|TNF-alpha|GSE2639,single_cell,TNF-alpha,GSE2639,GSE2639,bulk_GEO,1,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+sc|TNF-alpha|GSE26994,single_cell,TNF-alpha,GSE26994,GSE26868,bulk_GEO,2,TNF,mixed,array,cell_line,cell line HeLa;cell line THP-1
+sc|TNF-alpha|GSE270740,single_cell,TNF-alpha,GSE270740,GSE270740,bulk_GEO,1,TNF,melanocytic (melanoma),RNA-seq,cell_line,cell line A375
+sc|TNF-alpha|GSE270741,single_cell,TNF-alpha,GSE270741,GSE270741,bulk_GEO,3,TNF,nan,RNA-seq,cell_line,unknown
+sc|TNF-alpha|GSE28548,single_cell,TNF-alpha,GSE28548,GSE28548,bulk_GEO,3,TNF,embryonic kidney,array,cell_line,cell line HEK293
+sc|TNF-alpha|GSE28995,single_cell,TNF-alpha,GSE28995,GSE28995,bulk_GEO,1,TNF,myeloid (monocytic leukaemia),array,cell_line,cell line THP-1
+sc|TNF-alpha|GSE31064,single_cell,TNF-alpha,GSE31064,GSE31064,bulk_GEO,4,TNF,stromal,array,primary,fibroblast
+sc|TNF-alpha|GSE31679,single_cell,TNF-alpha,GSE31679,GSE31679,bulk_GEO,3,TNF,epithelial,array,cell_line,trophoblast cell
+sc|TNF-alpha|GSE34329,single_cell,TNF-alpha,GSE34329,GSE34329,bulk_GEO,1,TNF,epithelial (lung carcinoma),RNA-seq,cell_line,cell line A549
+sc|TNF-alpha|GSE36287,single_cell,TNF-alpha,GSE36287,GSE36287,bulk_GEO,1,TNF,epithelial,array,primary,keratinocyte
+sc|TNF-alpha|GSE36331,single_cell,TNF-alpha,GSE36331,GSE36331,bulk_GEO,1,TNF,epithelial,array,cell_line,retinal pigment epithelial cell
+sc|TNF-alpha|GSE37139,single_cell,TNF-alpha,GSE37139,GSE37139,bulk_GEO,4,TNF,epithelial (breast carcinoma),array,cell_line,cell line MCF-7
+sc|TNF-alpha|GSE40007,single_cell,TNF-alpha,GSE40007,GSE40007,bulk_GEO,1,TNF,stromal,array,stem_cell_derived,endometrial stromal cell
+sc|TNF-alpha|GSE40548,single_cell,TNF-alpha,GSE40548,GSE40548,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,neutrophil
+sc|TNF-alpha|GSE40752,single_cell,TNF-alpha,GSE40752,GSE40560;GSE40838,bulk_GEO,10,TNF,mixed_blood,array,primary,fibroblast;peripheral blood mononuclear cell
+sc|TNF-alpha|GSE41883,single_cell,TNF-alpha,GSE41883,GSE41883,bulk_GEO,1,TNF,nan,array,unknown,unknown
+sc|TNF-alpha|GSE43685,single_cell,TNF-alpha,GSE43685,GSE43685,bulk_GEO,1,TNF,trophoblast (choriocarcinoma),array,cell_line,cell line BeWo
+sc|TNF-alpha|GSE45251,single_cell,TNF-alpha,GSE45251,GSE45251,bulk_GEO,1,TNF,muscle,array,primary,smooth muscle cell
+sc|TNF-alpha|GSE47189,single_cell,TNF-alpha,GSE47189,GSE46903,bulk_GEO,1,TNF,nan,array,unknown,unknown
+sc|TNF-alpha|GSE47542,single_cell,TNF-alpha,GSE47542,GSE47542,bulk_GEO,2,TNF,stromal,array,cell_line,fibroblast of lung
+sc|TNF-alpha|GSE52185,single_cell,TNF-alpha,GSE52185,GSE52182,bulk_GEO,2,TNF,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+sc|TNF-alpha|GSE54000,single_cell,TNF-alpha,GSE54000,GSE53999,bulk_GEO,2,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+sc|TNF-alpha|GSE54257,single_cell,TNF-alpha,GSE54257,GSE54254,bulk_GEO,9,TNF,epithelial (hepatoblastoma),array,cell_line,cell line HepG2
+sc|TNF-alpha|GSE56678,single_cell,TNF-alpha,GSE56678,GSE56678,bulk_GEO,2,TNF,epithelial (lung carcinoma),array,cell_line,cell line Calu-3
+sc|TNF-alpha|GSE56681,single_cell,TNF-alpha,GSE56681,GSE56681,bulk_GEO,1,TNF,myeloid,array,primary,monocyte
+sc|TNF-alpha|GSE59237,single_cell,TNF-alpha,GSE59237,GSE59237,bulk_GEO,1,TNF,myeloid,array,primary,dendritic cell
+sc|TNF-alpha|GSE59472,single_cell,TNF-alpha,GSE59472,GSE59472,bulk_GEO,1,TNF,epithelial,array,primary,airway epithelial cell
+sc|TNF-alpha|GSE60462,single_cell,TNF-alpha,GSE60462,GSE60462,bulk_GEO,1,TNF,stromal,RNA-seq,primary,fat cell
+sc|TNF-alpha|GSE61220,single_cell,TNF-alpha,GSE61220,GSE61220,bulk_GEO,2,TNF,epithelial,RNA-seq,cell_line,airway epithelial cell
+sc|TNF-alpha|GSE64233,single_cell,TNF-alpha,GSE64233,GSE64233,bulk_GEO,3,TNF,stromal,RNA-seq,primary,fat cell
+sc|TNF-alpha|GSE64250,single_cell,TNF-alpha,GSE64250,GSE64250,bulk_GEO,1,TNF,nan,array,unknown,unknown
+sc|TNF-alpha|GSE67295,single_cell,TNF-alpha,GSE67295,GSE67295,bulk_GEO,1,TNF,epithelial (breast carcinoma),RNA-seq,cell_line,cell line MCF-7
+sc|TNF-alpha|GSE68182,single_cell,TNF-alpha,GSE68182,GSE68182,bulk_GEO,1,TNF,epithelial,array,cell_line,epithelial cell
+sc|TNF-alpha|GSE68941,single_cell,TNF-alpha,GSE68941,GSE68941,bulk_GEO,1,TNF,"epithelial (proximal tubule, immortalised)",array,cell_line,cell line HK-2
+sc|TNF-alpha|GSE69605,single_cell,TNF-alpha,GSE69605,GSE69605,bulk_GEO,1,TNF,epithelial (colorectal carcinoma),array,cell_line,cell line HT-29
+sc|TNF-alpha|GSE70068,single_cell,TNF-alpha,GSE70068,GSE70068,bulk_GEO,2,TNF,myeloid,RNA-seq,primary,neutrophil
+sc|TNF-alpha|GSE74407,single_cell,TNF-alpha,GSE74407,GSE74407,bulk_GEO,1,TNF,epithelial,array,cell_line,keratinocyte
+sc|TNF-alpha|GSE77814,single_cell,TNF-alpha,GSE77814,GSE77814,bulk_GEO,2,TNF,nan,array,cell_line,unknown
+sc|TNF-alpha|GSE80325,single_cell,TNF-alpha,GSE80325,GSE103500,bulk_GEO,1,TNF,mixed_blood,array,primary,whole blood
+sc|TNF-alpha|GSE82036,single_cell,TNF-alpha,GSE82036,GSE82036,bulk_GEO,1,TNF,endothelial,array,primary,endothelial cell
+sc|TNF-alpha|GSE86451,single_cell,TNF-alpha,GSE86451,GSE86451,bulk_GEO,1,TNF,epithelial,RNA-seq,primary,keratinocyte
+sc|TNF-alpha|GSE89970,single_cell,TNF-alpha,GSE89970,GSE89970,bulk_GEO,4,TNF,endothelial,RNA-seq,primary,endothelial cell
+sc|TNF-alpha|GSE9055,single_cell,TNF-alpha,GSE9055,GSE9055,bulk_GEO,7,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+sc|TNF-alpha|GSE91020,single_cell,TNF-alpha,GSE91020,GSE91019,bulk_GEO,1,TNF,epithelial,RNA-seq,primary,epithelial cell
+sc|TNF-alpha|GSE95078,single_cell,TNF-alpha,GSE95078,GSE95078,bulk_GEO,1,TNF,stromal,RNA-seq,primary,skin fibroblast
+sc|TNF-alpha|GSE95588,single_cell,TNF-alpha,GSE95588,GSE95588,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,macrophage
+sc|TNF-alpha|GSE97979,single_cell,TNF-alpha,GSE97979,GSE97979,bulk_GEO,2,TNF,embryonic kidney,RNA-seq,cell_line,cell line HEK293
+sc|TNF-alpha|GSE98624,single_cell,TNF-alpha,GSE98624,GSE98624,bulk_GEO,2,TNF,stromal,RNA-seq,primary,skin fibroblast
+sc|TRAIL|GSE104602,single_cell,TRAIL,GSE104602,GSE104602,bulk_GEO,1,TNFSF10,epithelial (colorectal carcinoma),RNA-seq,cell_line,cell line HCT 116
+sc|TRAIL|GSE186611,single_cell,TRAIL,GSE186611,GSE186609,bulk_GEO,6,TNFSF10,nan,RNA-seq,cell_line,unknown
+sc|TRAIL|GSE29955,single_cell,TRAIL,GSE29955,GSE29955,bulk_GEO,1,TNFSF10,muscle,array,primary,vascular associated smooth muscle cell
+sc|TRAIL|GSE55050,single_cell,TRAIL,GSE55050,GSE55050,bulk_GEO,4,TNFSF10,nan,array,cell_line,cell line Me13
+sc|TRAIL|GSE67033,single_cell,TRAIL,GSE67033,GSE67033,bulk_GEO,1,TNFSF10,epithelial (colorectal carcinoma),array,cell_line,cell line HT-29
+sc|TRAIL|GSE87287,single_cell,TRAIL,GSE87287,GSE87287,bulk_GEO,1,TNFSF10,epithelial (pancreatic carcinoma),array,cell_line,cell line PANC-1
+sc|TSLP|GSE196895,single_cell,TSLP,GSE196895,GSE196862,bulk_GEO,1,TSLP,myeloid,RNA-seq,primary,mast cell
+sc|TSLP|GSE45458,single_cell,TSLP,GSE45458,GSE45458,bulk_GEO,1,TSLP,lymphoid,array,primary,innate lymphoid cell
+sc|TSLP|GSE59237,single_cell,TSLP,GSE59237,GSE59237,bulk_GEO,1,TSLP,myeloid,array,primary,dendritic cell
+sc|TSLP|GSE73313,single_cell,TSLP,GSE73313,GSE73313,bulk_GEO,2,TSLP,myeloid,RNA-seq,primary,neutrophil
+sc|TSLP|GSE73542,single_cell,TSLP,GSE73542,GSE73542,bulk_GEO,2,TSLP,myeloid,array,primary,dendritic cell
+sc|TSLP|GSE74339,single_cell,TSLP,GSE74339,GSE74339,bulk_GEO,1,TSLP,lymphoid,RNA-seq,primary,B cell
+sc|VEGF|GSE100404,single_cell,VEGF,GSE100404,GSE100404,bulk_GEO,5,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE112172,single_cell,VEGF,GSE112172,GSE112172,bulk_GEO,3,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE11228,single_cell,VEGF,GSE11228,GSE11228,bulk_GEO,4,VEGFA,endothelial,array,primary,endothelial cell of lymphatic vessel
+sc|VEGF|GSE129276,single_cell,VEGF,GSE129276,GSE129275,bulk_GEO,1,VEGFA,endothelial,array,cell_line,endothelial cell of umbilical vein
+sc|VEGF|GSE18913,single_cell,VEGF,GSE18913,GSE18913,bulk_GEO,4,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE19335,single_cell,VEGF,GSE19335,GSE19335,bulk_GEO,1,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE58663,single_cell,VEGF,GSE58663,GSE58663,bulk_GEO,1,VEGFA,endothelial,RNA-seq,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE71967,single_cell,VEGF,GSE71967,GSE71967,bulk_GEO,1,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+sc|VEGF|GSE93590,single_cell,VEGF,GSE93590,GSE93590,bulk_GEO,2,VEGFA,endothelial,RNA-seq,primary,endothelial cell
+bulk|BMP2|GSE10311,bulk,BMP2,GSE10311,GSE10311,bulk_GEO,2,BMP2,stromal,array,primary,osteoblast
+bulk|BMP2|GSE125370,bulk,BMP2,GSE125370,GSE125370,bulk_GEO,1,BMP2,other,RNA-seq,cell_line,neuron
+bulk|BMP2|GSE20671,bulk,BMP2,GSE20671,GSE20671,bulk_GEO,1,BMP2,epithelial,array,cell_line,cell line Hep3B
+bulk|BMP2|GSE60135,bulk,BMP2,GSE60135,GSE60135,bulk_GEO,1,BMP2,other,array,cell_line,unknown
+bulk|BMP2|GSE66142,bulk,BMP2,GSE66142,GSE66142,bulk_GEO,3,BMP2,epithelial,array,cell_line,cell line MDA-MB-231;cell line T-47D;unknown
+bulk|BMP2|GSE84500,bulk,BMP2,GSE84500,GSE84500,bulk_GEO,4,BMP2,stromal,array,primary,mesenchymal stem cell
+bulk|BMP4|GSE10469,bulk,BMP4,GSE10469,GSE10469,bulk_GEO,5,BMP4,epithelial,array,stem_cell_derived,trophoblast cell
+bulk|BMP4|GSE104969,bulk,BMP4,GSE104969,GSE104969,bulk_GEO,5,BMP4,epithelial,RNA-seq,stem_cell_derived,trophoblast cell
+bulk|BMP4|GSE131998,bulk,BMP4,GSE131998,GSE131998,bulk_GEO,2,BMP4,other,RNA-seq,primary,smooth muscle cell
+bulk|BMP4|GSE26351,bulk,BMP4,GSE26351,GSE26351,bulk_GEO,1,BMP4,other,array,primary,hematopoietic stem/progenitor cell
+bulk|BMP4|GSE30915,bulk,BMP4,GSE30915,GSE30915,bulk_GEO,6,BMP4,epithelial,array,stem_cell_derived,trophoblast cell
+bulk|BMP4|GSE39210,bulk,BMP4,GSE39210,GSE39210,bulk_GEO,3,BMP4,other,array,cell_line;stem_cell_derived,unknown
+bulk|BMP4|GSE65445,bulk,BMP4,GSE65445,GSE65445,bulk_GEO,2,BMP4,endothelial,array,primary,endothelial cell
+bulk|BMP4|GSE66142,bulk,BMP4,GSE66142,GSE66142,bulk_GEO,6,BMP4,other,array,cell_line,cell line MDA-MB-231;unknown
+bulk|BMP6|GSE121073,bulk,BMP6,GSE121073,GSE121073,bulk_GEO,1,BMP6,epithelial,array,cell_line,cell line Huh-7
+bulk|BMP6|GSE20671,bulk,BMP6,GSE20671,GSE20671,bulk_GEO,1,BMP6,epithelial,array,cell_line,cell line Hep3B
+bulk|BMP6|GSE28074,bulk,BMP6,GSE28074,GSE28074,bulk_GEO,1,BMP6,stromal,array,primary,mesenchymal stem cell
+bulk|BMP6|GSE80225,bulk,BMP6,GSE80225,GSE80225,bulk_GEO,3,BMP6,other,array,cell_line,cell line HSG
+bulk|BMP7|GSE136198,bulk,BMP7,GSE136198,GSE136198,bulk_GEO,2,BMP7,stromal,array,primary,chondrocyte
+bulk|BMP7|GSE62783,bulk,BMP7,GSE62783,GSE62783,bulk_GEO,1,BMP7,stromal,array,primary,mesenchymal stem cell
+bulk|BMP7|GSE66142,bulk,BMP7,GSE66142,GSE66142,bulk_GEO,1,BMP7,epithelial,array,cell_line,cell line MDA-MB-231
+bulk|BMP7|GSE68071,bulk,BMP7,GSE68071,GSE68071,bulk_GEO,1,BMP7,other,array,unknown,unknown
+bulk|BMP7|GSE90638,bulk,BMP7,GSE90638,GSE90638,bulk_GEO,4,BMP7,stromal,array,primary,chondrocyte
+bulk|CD40LG|GSE132835,bulk,CD40LG,GSE132835,GSE132835,bulk_GEO,2,CD40LG,lymphoid,RNA-seq,primary,B cell
+bulk|CD40LG|GSE85543,bulk,CD40LG,GSE85543,GSE85543,bulk_GEO,1,CD40LG,lymphoid,array,primary,B cell
+bulk|CD40LG|GSE85544,bulk,CD40LG,GSE85544,GSE85544,bulk_GEO,3,CD40LG,myeloid,array,primary,dendritic cell
+bulk|CSF1|GSE107006,bulk,CSF1,GSE107006,GSE107006,bulk_GEO,1,CSF1,other,RNA-seq,primary,hematopoietic stem/progenitor cell
+bulk|CSF1|GSE35495,bulk,CSF1,GSE35495,GSE35495,bulk_GEO,4,CSF1,myeloid,array,primary,CD14-positive monocyte
+bulk|CSF1|GSE99609,bulk,CSF1,GSE99609,GSE99609,bulk_GEO,1,CSF1,myeloid,array,primary,monocyte
+bulk|CSF2|GSE11886,bulk,CSF2,GSE11886,GSE11886,bulk_GEO,1,CSF2,myeloid,array,primary,macrophage
+bulk|CSF2|GSE35304,bulk,CSF2,GSE35304,GSE35304,bulk_GEO,4,CSF2,myeloid,array,primary,monocyte
+bulk|CSF2|GSE40548,bulk,CSF2,GSE40548,GSE40548,bulk_GEO,1,CSF2,myeloid,RNA-seq,primary,neutrophil
+bulk|CSF2|GSE57915,bulk,CSF2,GSE57915,GSE57915,bulk_GEO,2,CSF2,myeloid,array,primary,plasmacytoid dendritic cell
+bulk|CSF2|GSE63662,bulk,CSF2,GSE63662,GSE63662,bulk_GEO,1,CSF2,myeloid,array,primary,monocyte
+bulk|CSF2|GSE70068,bulk,CSF2,GSE70068,GSE70068,bulk_GEO,2,CSF2,myeloid,RNA-seq,primary,neutrophil
+bulk|CSF2|GSE89442,bulk,CSF2,GSE89442,GSE89442,bulk_GEO,1,CSF2,myeloid,RNA-seq,primary,dendritic cell
+bulk|CXCL12|GSE15893,bulk,CXCL12,GSE15893,GSE15893,bulk_GEO,1,CXCL12,epithelial,array,cell_line,cell line MDA-MB-231
+bulk|CXCL12|GSE20891,bulk,CXCL12,GSE20891,GSE20891,bulk_GEO,1,CXCL12,other,array,primary,hematopoietic stem/progenitor cell
+bulk|CXCL12|GSE24496,bulk,CXCL12,GSE24496,GSE24496,bulk_GEO,1,CXCL12,myeloid,array,primary,monocyte
+bulk|CXCL12|GSE40017,bulk,CXCL12,GSE40017,GSE40017,bulk_GEO,8,CXCL12,epithelial,array,cell_line,cell line SW480
+bulk|CXCL12|GSE7307,bulk,CXCL12,GSE7307,GSE7307,bulk_GEO,3,CXCL12,epithelial,array,cell_line,cell line MDA-MB-231
+bulk|CXCL12|GSE93568,bulk,CXCL12,GSE93568,GSE93568,bulk_GEO,1,CXCL12,epithelial,array,cell_line,cell line HeLa
+bulk|EGF|GSE113039,bulk,EGF,GSE113039,GSE113039,bulk_GEO,1,EGF,epithelial,RNA-seq,primary,kidney epithelial cell
+bulk|EGF|GSE121485,bulk,EGF,GSE121485,GSE121485,bulk_GEO,3,EGF,epithelial,RNA-seq,cell_line,cell line HeLa
+bulk|EGF|GSE121664,bulk,EGF,GSE121664,GSE121664,bulk_GEO,1,EGF,other,RNA-seq,cell_line,unknown
+bulk|EGF|GSE121697,bulk,EGF,GSE121697,GSE121697,bulk_GEO,1,EGF,stromal,RNA-seq,primary,mesenchymal stem cell
+bulk|EGF|GSE13168,bulk,EGF,GSE13168,GSE13168,bulk_GEO,2,EGF,other,array,primary,bronchial smooth muscle cell
+bulk|EGF|GSE18938,bulk,EGF,GSE18938,GSE18938,bulk_GEO,2,EGF,epithelial,array,cell_line,cell line MCF-10A
+bulk|EGF|GSE20277,bulk,EGF,GSE20277,GSE20277,bulk_GEO,3,EGF,epithelial,array,cell_line,cell line HeLa
+bulk|EGF|GSE24391,bulk,EGF,GSE24391,GSE24391,bulk_GEO,6,EGF,epithelial,array,cell_line,cell line MCF-10A
+bulk|EGF|GSE26081,bulk,EGF,GSE26081,GSE26081,bulk_GEO,2,EGF,epithelial,array,cell_line,cell line MCF-7
+bulk|EGF|GSE26264,bulk,EGF,GSE26264,GSE26264,bulk_GEO,1,EGF,epithelial,array,cell_line,cell line MCF-10A
+bulk|EGF|GSE32217,bulk,EGF,GSE32217,GSE32217,bulk_GEO,1,EGF,epithelial,array,primary,keratinocyte
+bulk|EGF|GSE33806,bulk,EGF,GSE33806,GSE33806,bulk_GEO,2,EGF,other,array,tissue_explant,tissue explant
+bulk|EGF|GSE34228,bulk,EGF,GSE34228,GSE34228,bulk_GEO,2,EGF,epithelial,array,cell_line,keratinocyte
+bulk|EGF|GSE50982,bulk,EGF,GSE50982,GSE50982,bulk_GEO,3,EGF,other,array,cell_line,unknown
+bulk|EGF|GSE53405,bulk,EGF,GSE53405,GSE53405,bulk_GEO,3,EGF,epithelial,array,cell_line,cell line MCF-10A
+bulk|EGF|GSE73914,bulk,EGF,GSE73914,GSE73914,bulk_GEO,2,EGF,epithelial,array,primary,mammary gland epithelial cell
+bulk|EGF|GSE77751,bulk,EGF,GSE77751,GSE77751,bulk_GEO,1,EGF,other,RNA-seq,unknown,unknown
+bulk|EGF|GSE94063,bulk,EGF,GSE94063,GSE94063,bulk_GEO,4,EGF,epithelial,RNA-seq,cell_line,cell line HCT 116;cell line IMR-90;cell line MCF-7
+bulk|FGF2|GSE103383,bulk,FGF2,GSE103383,GSE103383,bulk_GEO,4,FGF2,other,RNA-seq,cell_line,pancreatic islet cell (mixed)
+bulk|FGF2|GSE11302,bulk,FGF2,GSE11302,GSE11302,bulk_GEO,2,FGF2,other,array,stem_cell_derived,unknown
+bulk|FGF2|GSE115240,bulk,FGF2,GSE115240,GSE115240,bulk_GEO,1,FGF2,stromal,RNA-seq,primary,mesenchymal stem cell
+bulk|FGF2|GSE14828,bulk,FGF2,GSE14828,GSE14828,bulk_GEO,3,FGF2,stromal,array,primary,mesenchymal stem cell
+bulk|FGF2|GSE62192,bulk,FGF2,GSE62192,GSE62192,bulk_GEO,1,FGF2,epithelial,array,cell_line,cell line LNCaP
+bulk|FGF2|GSE63015,bulk,FGF2,GSE63015,GSE63015,bulk_GEO,1,FGF2,other,RNA-seq,primary,neural progenitor cell
+bulk|HGF|GSE109720,bulk,HGF,GSE109720,GSE109720,bulk_GEO,1,HGF,other,RNA-seq,cell_line,unknown
+bulk|HGF|GSE111542,bulk,HGF,GSE111542,GSE111542,bulk_GEO,1,HGF,epithelial,array,primary,kidney epithelial cell
+bulk|HGF|GSE121297,bulk,HGF,GSE121297,GSE121297,bulk_GEO,1,HGF,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|HGF|GSE129075,bulk,HGF,GSE129075,GSE129075,bulk_GEO,2,HGF,other,RNA-seq,cell_line,unknown
+bulk|HGF|GSE135552,bulk,HGF,GSE135552,GSE135552,bulk_GEO,3,HGF,other,RNA-seq,cell_line,cell line FaDu;unknown
+bulk|HGF|GSE26736,bulk,HGF,GSE26736,GSE26736,bulk_GEO,6,HGF,other,array,cell_line,unknown
+bulk|HGF|GSE71404,bulk,HGF,GSE71404,GSE71404,bulk_GEO,3,HGF,other,array,cell_line,cell line PC3M (prostate adenocarcinoma)
+bulk|HGF|GSE98979,bulk,HGF,GSE98979,GSE98979,bulk_GEO,2,HGF,epithelial,array,cell_line,epithelial cell
+bulk|HMGB1|GSE100404,bulk,HMGB1,GSE100404,GSE100404,bulk_GEO,5,HMGB1,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|HMGB1|GSE3037,bulk,HMGB1,GSE3037,GSE3037,bulk_GEO,1,HMGB1,myeloid,array,primary,neutrophil
+bulk|HMGB1|GSE47616,bulk,HMGB1,GSE47616,GSE47616,bulk_GEO,1,HMGB1,stromal,array,primary,skin fibroblast
+bulk|IFN1|GSE103363,bulk,IFN1,GSE103363,GSE103363,bulk_GEO,1,IFNB1,epithelial,array,cell_line,cell line HeLa
+bulk|IFN1|GSE103477,bulk,IFN1,GSE103477,GSE103477,bulk_GEO,1,IFNB1,myeloid,RNA-seq,primary,macrophage
+bulk|IFN1|GSE104349,bulk,IFN1,GSE104349,GSE104349,bulk_GEO,1,IFNB1,other,RNA-seq,tissue_explant,tissue explant
+bulk|IFN1|GSE107307,bulk,IFN1,GSE107307,GSE107307,bulk_GEO,2,IFNA_unspecified,other,RNA-seq,cell_line,"cell line RD-ES (Ewing sarcoma, USP6 induced);cell line RD-ES (Ewing sarcoma, dox-inducible USP6)"
+bulk|IFN1|GSE114284,bulk,IFN1,GSE114284,GSE114284,bulk_GEO,2,IFNB1,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|IFN1|GSE122794,bulk,IFN1,GSE122794,GSE122794,bulk_GEO,2,IFNB1,stromal,RNA-seq,primary;stem_cell_derived,fibroblast;skin fibroblast
+bulk|IFN1|GSE124939,bulk,IFN1,GSE124939,GSE124939,bulk_GEO,6,IFNA2;IFNA_unspecified;IFNB1,epithelial,RNA-seq,primary,keratinocyte
+bulk|IFN1|GSE13046,bulk,IFN1,GSE13046,GSE13046,bulk_GEO,1,IFNA2,epithelial,array,cell_line,cell line Huh-7
+bulk|IFN1|GSE16214,bulk,IFN1,GSE16214,GSE16214,bulk_GEO,3,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+bulk|IFN1|GSE16755,bulk,IFN1,GSE16755,GSE16755,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,macrophage
+bulk|IFN1|GSE17302,bulk,IFN1,GSE17302,GSE17302,bulk_GEO,1,IFNA2,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+bulk|IFN1|GSE19392,bulk,IFN1,GSE19392,GSE19392,bulk_GEO,9,IFNB1,epithelial,array,primary,airway epithelial cell
+bulk|IFN1|GSE23203,bulk,IFN1,GSE23203,GSE23203,bulk_GEO,3,IFNA_unspecified,endothelial,array,primary,endothelial cell
+bulk|IFN1|GSE23307,bulk,IFN1,GSE23307,GSE23307,bulk_GEO,1,IFNB1,lymphoid,array,primary,B cell
+bulk|IFN1|GSE24125,bulk,IFN1,GSE24125,GSE24125,bulk_GEO,1,IFNA_unspecified,stromal,array,primary,skin fibroblast
+bulk|IFN1|GSE27427,bulk,IFN1,GSE27427,GSE27427,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,neutrophil
+bulk|IFN1|GSE31019,bulk,IFN1,GSE31019,GSE31019,bulk_GEO,5,IFNA_unspecified,stromal,array,cell_line,cell line HT1080;cell line SKOV3
+bulk|IFN1|GSE33264,bulk,IFN1,GSE33264,GSE33264,bulk_GEO,3,IFNA_unspecified,epithelial,array,cell_line,cell line Calu-3
+bulk|IFN1|GSE34572,bulk,IFN1,GSE34572,GSE34572,bulk_GEO,1,IFNA2,lymphoid,array,cell_line,"CD4-positive, alpha-beta T cell"
+bulk|IFN1|GSE35268,bulk,IFN1,GSE35268,GSE35268,bulk_GEO,3,IFNB1,epithelial,array,cell_line,cell line A549
+bulk|IFN1|GSE35601,bulk,IFN1,GSE35601,GSE35601,bulk_GEO,1,IFNB1,myeloid,array,primary,monocyte
+bulk|IFN1|GSE36287,bulk,IFN1,GSE36287,GSE36287,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,keratinocyte
+bulk|IFN1|GSE37715,bulk,IFN1,GSE37715,GSE37715,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,hepatocyte
+bulk|IFN1|GSE37750,bulk,IFN1,GSE37750,GSE37750,bulk_GEO,1,IFNB1,myeloid,array,primary,plasmacytoid dendritic cell
+bulk|IFN1|GSE38598,bulk,IFN1,GSE38598,GSE38598,bulk_GEO,1,IFNA_unspecified,epithelial,array,primary,hepatocyte
+bulk|IFN1|GSE3920,bulk,IFN1,GSE3920,GSE3920,bulk_GEO,3,IFNA_unspecified;IFNB1,endothelial,array,primary,endothelial cell;fibroblast
+bulk|IFN1|GSE41291,bulk,IFN1,GSE41291,GSE41291,bulk_GEO,4,IFNA_unspecified,other,array,cell_line,unknown
+bulk|IFN1|GSE41960,bulk,IFN1,GSE41960,GSE41960,bulk_GEO,2,IFNA_unspecified,stromal,array,primary,skin fibroblast
+bulk|IFN1|GSE47616,bulk,IFN1,GSE47616,GSE47616,bulk_GEO,1,IFNB1,stromal,array,primary,skin fibroblast
+bulk|IFN1|GSE48400,bulk,IFN1,GSE48400,GSE48400,bulk_GEO,14,IFNA_unspecified;IFNB1,epithelial,array,cell_line,cell line Huh7 (hepatoma)
+bulk|IFN1|GSE50007,bulk,IFN1,GSE50007,GSE50007,bulk_GEO,6,IFNA_unspecified,other,array,cell_line,unknown
+bulk|IFN1|GSE50954,bulk,IFN1,GSE50954,GSE50954,bulk_GEO,1,IFNB1,stromal,array,cell_line,fibroblast
+bulk|IFN1|GSE54455,bulk,IFN1,GSE54455,GSE54455,bulk_GEO,1,IFNA_unspecified,myeloid,array,primary,macrophage
+bulk|IFN1|GSE54970,bulk,IFN1,GSE54970,GSE54970,bulk_GEO,1,IFNB1,myeloid,array,primary,dendritic cell
+bulk|IFN1|GSE58240,bulk,IFN1,GSE58240,GSE58240,bulk_GEO,2,IFNB1,lymphoid,array,primary,B cell
+bulk|IFN1|GSE60359,bulk,IFN1,GSE60359,GSE60359,bulk_GEO,1,IFNA_unspecified,stromal,array,primary,fibroblast
+bulk|IFN1|GSE60574,bulk,IFN1,GSE60574,GSE60574,bulk_GEO,4,IFNA2,epithelial,array,cell_line,cell line A549
+bulk|IFN1|GSE64796,bulk,IFN1,GSE64796,GSE64796,bulk_GEO,1,IFNA2,epithelial,array,cell_line,cell line HuH7
+bulk|IFN1|GSE65575,bulk,IFN1,GSE65575,GSE65575,bulk_GEO,3,IFNA_unspecified,epithelial,array,cell_line,hepatocyte
+bulk|IFN1|GSE67737,bulk,IFN1,GSE67737,GSE67737,bulk_GEO,2,IFNA_unspecified;IFNB1,stromal,array,primary,skin fibroblast
+bulk|IFN1|GSE70270,bulk,IFN1,GSE70270,GSE70270,bulk_GEO,1,IFNB1,other,array,cell_line,cell line WISH
+bulk|IFN1|GSE71634,bulk,IFN1,GSE71634,GSE71634,bulk_GEO,1,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+bulk|IFN1|GSE72420,bulk,IFN1,GSE72420,GSE72420,bulk_GEO,1,IFNA_unspecified,lymphoid,RNA-seq,cell_line,B cell
+bulk|IFN1|GSE73608,bulk,IFN1,GSE73608,GSE73608,bulk_GEO,6,IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+bulk|IFN1|GSE74047,bulk,IFN1,GSE74047,GSE74047,bulk_GEO,2,IFNB1,myeloid,array,cell_line,cell line THP-1
+bulk|IFN1|GSE75007,bulk,IFN1,GSE75007,GSE75007,bulk_GEO,7,IFNA_unspecified,lymphoid,array,primary,B cell
+bulk|IFN1|GSE80325,bulk,IFN1,GSE80325,GSE80325,bulk_GEO,1,IFNA_unspecified,mixed_blood,array,primary,whole blood
+bulk|IFN1|GSE83716,bulk,IFN1,GSE83716,GSE83716,bulk_GEO,2,IFNA_unspecified,myeloid,array,primary,macrophage
+bulk|IFN1|GSE85487,bulk,IFN1,GSE85487,GSE85487,bulk_GEO,2,IFNA_unspecified;IFNB1,mixed_blood,array,primary,peripheral blood mononuclear cell
+bulk|IFN1|GSE89476,bulk,IFN1,GSE89476,GSE89476,bulk_GEO,2,IFNB1,other,RNA-seq,primary,astrocyte
+bulk|IFN1|GSE89610,bulk,IFN1,GSE89610,GSE89610,bulk_GEO,1,IFNA_unspecified,epithelial,array,cell_line,hepatocyte
+bulk|IFN1|GSE94521,bulk,IFN1,GSE94521,GSE94521,bulk_GEO,1,IFNB1,other,array,stem_cell_derived,unknown
+bulk|IFN1|GSE99249,bulk,IFN1,GSE99249,GSE99249,bulk_GEO,3,IFNB1,other,RNA-seq,cell_line,cell line HEK293
+bulk|IFNG|GSE103363,bulk,IFNG,GSE103363,GSE103363,bulk_GEO,1,IFNG,epithelial,array,cell_line,cell line HeLa
+bulk|IFNG|GSE105142,bulk,IFNG,GSE105142,GSE105142,bulk_GEO,1,IFNG,myeloid,RNA-seq,primary,myeloid-derived suppressor cell
+bulk|IFNG|GSE109720,bulk,IFNG,GSE109720,GSE109720,bulk_GEO,4,IFNG,other,RNA-seq,cell_line,unknown
+bulk|IFNG|GSE120945,bulk,IFNG,GSE120945,GSE120945,bulk_GEO,2,IFNG,myeloid,RNA-seq,primary,CD14-positive monocyte;macrophage
+bulk|IFNG|GSE122985,bulk,IFNG,GSE122985,GSE122985,bulk_GEO,1,IFNG,epithelial,array,cell_line,cell line HCT116
+bulk|IFNG|GSE124939,bulk,IFNG,GSE124939,GSE124939,bulk_GEO,2,IFNG,epithelial,RNA-seq,primary,keratinocyte
+bulk|IFNG|GSE128392,bulk,IFNG,GSE128392,GSE128392,bulk_GEO,1,IFNG,stromal,RNA-seq,cell_line,cell line HT-1080
+bulk|IFNG|GSE132408,bulk,IFNG,GSE132408,GSE132408,bulk_GEO,2,IFNG,myeloid,RNA-seq,cell_line,monocyte
+bulk|IFNG|GSE135458,bulk,IFNG,GSE135458,GSE135458,bulk_GEO,2,IFNG,epithelial,RNA-seq,cell_line,cell line HCT 116
+bulk|IFNG|GSE142672,bulk,IFNG,GSE142672,GSE142672,bulk_GEO,1,IFNG,myeloid,array,primary,monocyte
+bulk|IFNG|GSE17477,bulk,IFNG,GSE17477,GSE17477,bulk_GEO,1,IFNG,myeloid,array,cell_line,macrophage
+bulk|IFNG|GSE30273,bulk,IFNG,GSE30273,GSE30273,bulk_GEO,1,IFNG,myeloid,array,primary,monocyte
+bulk|IFNG|GSE32407,bulk,IFNG,GSE32407,GSE32407,bulk_GEO,2,IFNG,other,array,unknown,unknown
+bulk|IFNG|GSE33264,bulk,IFNG,GSE33264,GSE33264,bulk_GEO,3,IFNG,epithelial,array,cell_line,cell line Calu-3
+bulk|IFNG|GSE36287,bulk,IFNG,GSE36287,GSE36287,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+bulk|IFNG|GSE36331,bulk,IFNG,GSE36331,GSE36331,bulk_GEO,1,IFNG,epithelial,array,cell_line,retinal pigment epithelial cell
+bulk|IFNG|GSE38598,bulk,IFNG,GSE38598,GSE38598,bulk_GEO,2,IFNG,epithelial,array,primary,hepatocyte
+bulk|IFNG|GSE3920,bulk,IFNG,GSE3920,GSE3920,bulk_GEO,2,IFNG,mixed,array,primary,endothelial cell;fibroblast
+bulk|IFNG|GSE41291,bulk,IFNG,GSE41291,GSE41291,bulk_GEO,4,IFNG,other,array,cell_line,unknown
+bulk|IFNG|GSE49852,bulk,IFNG,GSE49852,GSE49852,bulk_GEO,1,IFNG,myeloid,array,primary,macrophage
+bulk|IFNG|GSE5054,bulk,IFNG,GSE5054,GSE5054,bulk_GEO,2,IFNG,other,array,unknown,unknown
+bulk|IFNG|GSE50954,bulk,IFNG,GSE50954,GSE50954,bulk_GEO,1,IFNG,stromal,array,cell_line,fibroblast
+bulk|IFNG|GSE53751,bulk,IFNG,GSE53751,GSE53751,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+bulk|IFNG|GSE54818,bulk,IFNG,GSE54818,GSE54818,bulk_GEO,2,IFNG,myeloid,array,primary,CD14-positive monocyte
+bulk|IFNG|GSE5542,bulk,IFNG,GSE5542,GSE5542,bulk_GEO,2,IFNG,epithelial,array,cell_line,epithelial cell
+bulk|IFNG|GSE56026,bulk,IFNG,GSE56026,GSE56026,bulk_GEO,1,IFNG,other,array,cell_line,unknown
+bulk|IFNG|GSE58096,bulk,IFNG,GSE58096,GSE58096,bulk_GEO,2,IFNG,myeloid,array,cell_line,monocyte
+bulk|IFNG|GSE64997,bulk,IFNG,GSE64997,GSE64997,bulk_GEO,2,IFNG,myeloid,array,primary,macrophage
+bulk|IFNG|GSE65575,bulk,IFNG,GSE65575,GSE65575,bulk_GEO,6,IFNG,mixed,array,primary,endothelial cell;fibroblast
+bulk|IFNG|GSE66810,bulk,IFNG,GSE66810,GSE66810,bulk_GEO,1,IFNG,myeloid,RNA-seq,primary,macrophage
+bulk|IFNG|GSE67737,bulk,IFNG,GSE67737,GSE67737,bulk_GEO,1,IFNG,stromal,array,primary,skin fibroblast
+bulk|IFNG|GSE68942,bulk,IFNG,GSE68942,GSE68942,bulk_GEO,1,IFNG,epithelial,array,cell_line,cell line HK-2
+bulk|IFNG|GSE7216,bulk,IFNG,GSE7216,GSE7216,bulk_GEO,1,IFNG,epithelial,array,primary,keratinocyte
+bulk|IFNG|GSE75007,bulk,IFNG,GSE75007,GSE75007,bulk_GEO,7,IFNG,lymphoid,array,primary,B cell
+bulk|IFNG|GSE76340,bulk,IFNG,GSE76340,GSE76340,bulk_GEO,2,IFNG,mixed,array,primary,endothelial cell of umbilical vein;melanocyte
+bulk|IFNG|GSE77154,bulk,IFNG,GSE77154,GSE77154,bulk_GEO,2,IFNG,epithelial,array,cell_line,epithelial cell
+bulk|IFNG|GSE77814,bulk,IFNG,GSE77814,GSE77814,bulk_GEO,2,IFNG,other,array,cell_line,unknown
+bulk|IFNG|GSE78193,bulk,IFNG,GSE78193,GSE78193,bulk_GEO,3,IFNG,mixed_blood,array,primary,whole blood
+bulk|IFNG|GSE79077,bulk,IFNG,GSE79077,GSE79077,bulk_GEO,1,IFNG,myeloid,array,primary,macrophage
+bulk|IFNG|GSE80325,bulk,IFNG,GSE80325,GSE80325,bulk_GEO,1,IFNG,mixed_blood,array,primary,whole blood
+bulk|IFNG|GSE82227,bulk,IFNG,GSE82227,GSE82227,bulk_GEO,2,IFNG,myeloid,RNA-seq,primary,macrophage
+bulk|IFNG|GSE85898,bulk,IFNG,GSE85898,GSE85898,bulk_GEO,1,IFNG,other,array,cell_line,unknown
+bulk|IFNG|GSE97979,bulk,IFNG,GSE97979,GSE97979,bulk_GEO,2,IFNG,other,RNA-seq,cell_line,cell line HEK293
+bulk|IFNG|GSE98369,bulk,IFNG,GSE98369,GSE98369,bulk_GEO,3,IFNG,myeloid,RNA-seq,primary,macrophage
+bulk|IFNL|GSE114284,bulk,IFNL,GSE114284,GSE114284,bulk_GEO,2,IFNL1,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|IFNL|GSE31193,bulk,IFNL,GSE31193,GSE31193,bulk_GEO,1,IFNL3,other,array,unknown,unknown
+bulk|IFNL|GSE31264,bulk,IFNL,GSE31264,GSE31264,bulk_GEO,1,IFNL3,epithelial,array,primary,hepatocyte
+bulk|IFNL|GSE31455,bulk,IFNL,GSE31455,GSE31455,bulk_GEO,1,IFNL3,epithelial,array,primary,hepatocyte
+bulk|IFNL|GSE48400,bulk,IFNL,GSE48400,GSE48400,bulk_GEO,20,IFNL1;IFNL2;IFNL3,epithelial,array,cell_line,cell line Huh7 (hepatoma)
+bulk|IFNL|GSE89610,bulk,IFNL,GSE89610,GSE89610,bulk_GEO,1,IFNL_unspecified,epithelial,array,cell_line,hepatocyte
+bulk|IGF1|GSE109022,bulk,IGF1,GSE109022,GSE109022,bulk_GEO,1,IGF1,other,array,cell_line,unknown
+bulk|IGF1|GSE18955,bulk,IGF1,GSE18955,GSE18955,bulk_GEO,2,IGF1,mixed,array,cell_line,cell line MCF-7;fibroblast
+bulk|IGF1|GSE26834,bulk,IGF1,GSE26834,GSE26834,bulk_GEO,2,IGF1,epithelial,array,cell_line,cell line MCF-7
+bulk|IGF1|GSE59409,bulk,IGF1,GSE59409,GSE59409,bulk_GEO,2,IGF1,other,array,cell_line,cell line WM35 melanoma
+bulk|IGF1|GSE7561,bulk,IGF1,GSE7561,GSE7561,bulk_GEO,2,IGF1,epithelial,array,cell_line,cell line MCF-7
+bulk|IL1|GSE101868,bulk,IL1,GSE101868,GSE101868,bulk_GEO,1,IL1B,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|IL1|GSE115311,bulk,IL1,GSE115311,GSE115311,bulk_GEO,3,IL1B,stromal,RNA-seq,primary,mesenchymal stem cell
+bulk|IL1|GSE120411,bulk,IL1,GSE120411,GSE120411,bulk_GEO,1,IL1B,other,RNA-seq,stem_cell_derived,astrocyte
+bulk|IL1|GSE121241,bulk,IL1,GSE121241,GSE121241,bulk_GEO,1,IL1B,stromal,RNA-seq,primary,fibroblast of lung
+bulk|IL1|GSE125508,bulk,IL1,GSE125508,GSE125508,bulk_GEO,1,IL1B,endothelial,array,primary,endothelial cell
+bulk|IL1|GSE127457,bulk,IL1,GSE127457,GSE127457,bulk_GEO,1,IL1B,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL1|GSE13168,bulk,IL1,GSE13168,GSE13168,bulk_GEO,2,IL1B,other,array,primary,bronchial smooth muscle cell
+bulk|IL1|GSE132704,bulk,IL1,GSE132704,GSE132704,bulk_GEO,1,IL1_unspecified,epithelial,RNA-seq,cell_line,cell line HeLa
+bulk|IL1|GSE134896,bulk,IL1,GSE134896,GSE134896,bulk_GEO,1,IL1B,lymphoid,RNA-seq,primary,B cell
+bulk|IL1|GSE25400,bulk,IL1,GSE25400,GSE25400,bulk_GEO,1,IL1A,epithelial,array,primary,keratinocyte
+bulk|IL1|GSE25742,bulk,IL1,GSE25742,GSE25742,bulk_GEO,2,IL1B,mixed_blood,array,primary,whole blood
+bulk|IL1|GSE26315,bulk,IL1,GSE26315,GSE26315,bulk_GEO,2,IL1B,other,array,unknown,unknown
+bulk|IL1|GSE26702,bulk,IL1,GSE26702,GSE26702,bulk_GEO,1,IL1B,epithelial,array,cell_line,epithelial cell
+bulk|IL1|GSE31064,bulk,IL1,GSE31064,GSE31064,bulk_GEO,3,IL1B,stromal,array,primary,fibroblast
+bulk|IL1|GSE31679,bulk,IL1,GSE31679,GSE31679,bulk_GEO,3,IL1B,epithelial,array,cell_line,trophoblast cell
+bulk|IL1|GSE32390,bulk,IL1,GSE32390,GSE32390,bulk_GEO,1,IL1B,stromal,array,primary,fibroblast
+bulk|IL1|GSE37624,bulk,IL1,GSE37624,GSE37624,bulk_GEO,1,IL1B,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|IL1|GSE40752,bulk,IL1,GSE40752,GSE40752,bulk_GEO,10,IL1B,mixed_blood,array,primary,fibroblast;peripheral blood mononuclear cell
+bulk|IL1|GSE49604,bulk,IL1,GSE49604,GSE49604,bulk_GEO,2,IL1B,stromal,array,cell_line,synovial fibroblast
+bulk|IL1|GSE5054,bulk,IL1,GSE5054,GSE5054,bulk_GEO,2,IL1B,other,array,unknown,unknown
+bulk|IL1|GSE52470,bulk,IL1,GSE52470,GSE52470,bulk_GEO,10,IL1A,epithelial,array,cell_line,cell line HeLa
+bulk|IL1|GSE54608,bulk,IL1,GSE54608,GSE54608,bulk_GEO,1,IL1B,epithelial,array,cell_line,epithelial cell
+bulk|IL1|GSE56678,bulk,IL1,GSE56678,GSE56678,bulk_GEO,3,IL1A,epithelial,array,cell_line,cell line Calu-3
+bulk|IL1|GSE56681,bulk,IL1,GSE56681,GSE56681,bulk_GEO,1,IL1B,myeloid,array,primary,monocyte
+bulk|IL1|GSE58220,bulk,IL1,GSE58220,GSE58220,bulk_GEO,1,IL1B,stromal,array,primary,fibroblast
+bulk|IL1|GSE59671,bulk,IL1,GSE59671,GSE59671,bulk_GEO,9,IL1B,other,array,primary,smooth muscle cell
+bulk|IL1|GSE59740,bulk,IL1,GSE59740,GSE59740,bulk_GEO,1,IL1B,other,array,cell_line,vascular associated smooth muscle cell
+bulk|IL1|GSE62208,bulk,IL1,GSE62208,GSE62208,bulk_GEO,1,IL1B,epithelial,array,cell_line,intestinal epithelial cell
+bulk|IL1|GSE67295,bulk,IL1,GSE67295,GSE67295,bulk_GEO,1,IL1B,epithelial,RNA-seq,cell_line,cell line MCF-7
+bulk|IL1|GSE68428,bulk,IL1,GSE68428,GSE68428,bulk_GEO,1,IL1_unspecified,stromal,array,primary,chondrocyte
+bulk|IL1|GSE68685,bulk,IL1,GSE68685,GSE68685,bulk_GEO,1,IL1_unspecified,stromal,array,primary,fibroblast
+bulk|IL1|GSE7216,bulk,IL1,GSE7216,GSE7216,bulk_GEO,1,IL1B,epithelial,array,primary,keratinocyte
+bulk|IL1|GSE73914,bulk,IL1,GSE73914,GSE73914,bulk_GEO,2,IL1_unspecified,epithelial,array,primary,mammary gland epithelial cell
+bulk|IL1|GSE74220,bulk,IL1,GSE74220,GSE74220,bulk_GEO,1,IL1B,stromal,RNA-seq,primary,chondrocyte
+bulk|IL1|GSE80325,bulk,IL1,GSE80325,GSE80325,bulk_GEO,1,IL1B,mixed_blood,array,primary,whole blood
+bulk|IL1|GSE86798,bulk,IL1,GSE86798,GSE86798,bulk_GEO,1,IL1B,stromal,array,primary,skin fibroblast
+bulk|IL1|GSE89167,bulk,IL1,GSE89167,GSE89167,bulk_GEO,1,IL1_unspecified,epithelial,array,cell_line,cell line Huh-7
+bulk|IL1|GSE89970,bulk,IL1,GSE89970,GSE89970,bulk_GEO,1,IL1B,endothelial,RNA-seq,primary,endothelial cell
+bulk|IL10|GSE100521,bulk,IL10,GSE100521,GSE100521,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+bulk|IL10|GSE15390,bulk,IL10,GSE15390,GSE15390,bulk_GEO,1,IL10,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL10|GSE17493,bulk,IL10,GSE17493,GSE17493,bulk_GEO,2,IL10,mixed,array,primary,dendritic cell;peripheral blood mononuclear cell
+bulk|IL10|GSE35683,bulk,IL10,GSE35683,GSE35683,bulk_GEO,2,IL10,myeloid,array,primary,monocyte;neutrophil
+bulk|IL10|GSE43700,bulk,IL10,GSE43700,GSE43700,bulk_GEO,1,IL10,myeloid,array,primary,monocyte
+bulk|IL10|GSE45466,bulk,IL10,GSE45466,GSE45466,bulk_GEO,5,IL10,myeloid,array,primary,dendritic cell
+bulk|IL10|GSE47538,bulk,IL10,GSE47538,GSE47538,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+bulk|IL10|GSE59184,bulk,IL10,GSE59184,GSE59184,bulk_GEO,2,IL10,other,array,unknown,unknown
+bulk|IL10|GSE61298,bulk,IL10,GSE61298,GSE61298,bulk_GEO,1,IL10,myeloid,array,primary,macrophage
+bulk|IL10|GSE78095,bulk,IL10,GSE78095,GSE78095,bulk_GEO,2,IL10,mixed,array,primary,epithelial cell;mesenchymal stem cell
+bulk|IL10|GSE82316,bulk,IL10,GSE82316,GSE82316,bulk_GEO,1,IL10,myeloid,array,primary,monocyte
+bulk|IL10|GSE89610,bulk,IL10,GSE89610,GSE89610,bulk_GEO,1,IL10,epithelial,array,cell_line,hepatocyte
+bulk|IL12_complex|GSE119193,bulk,IL12_complex,GSE119193,GSE119193,bulk_GEO,1,IL12_complex,lymphoid,RNA-seq,primary,regulatory T cell
+bulk|IL12_complex|GSE12839,bulk,IL12_complex,GSE12839,GSE12839,bulk_GEO,2,IL12_complex,mixed_blood,array,primary,peripheral blood mononuclear cell
+bulk|IL12_complex|GSE32959,bulk,IL12_complex,GSE32959,GSE32959,bulk_GEO,4,IL12_complex,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL12_complex|GSE63038,bulk,IL12_complex,GSE63038,GSE63038,bulk_GEO,1,IL12_complex,lymphoid,array,primary,natural killer cell
+bulk|IL13|GSE106812,bulk,IL13,GSE106812,GSE106812,bulk_GEO,1,IL13,epithelial,array,primary,airway epithelial cell
+bulk|IL13|GSE110799,bulk,IL13,GSE110799,GSE110799,bulk_GEO,1,IL13,epithelial,array,primary,epithelial cell
+bulk|IL13|GSE116927,bulk,IL13,GSE116927,GSE116927,bulk_GEO,1,IL13,epithelial,RNA-seq,primary,airway epithelial cell
+bulk|IL13|GSE120086,bulk,IL13,GSE120086,GSE120086,bulk_GEO,2,IL13,myeloid,RNA-seq,primary,macrophage
+bulk|IL13|GSE23591,bulk,IL13,GSE23591,GSE23591,bulk_GEO,2,IL13,lymphoid,array,cell_line,B cell
+bulk|IL13|GSE3183,bulk,IL13,GSE3183,GSE3183,bulk_GEO,3,IL13,other,array,cell_line,unknown
+bulk|IL13|GSE36287,bulk,IL13,GSE36287,GSE36287,bulk_GEO,1,IL13,epithelial,array,primary,keratinocyte
+bulk|IL13|GSE37693,bulk,IL13,GSE37693,GSE37693,bulk_GEO,1,IL13,epithelial,array,primary,airway epithelial cell
+bulk|IL13|GSE47527,bulk,IL13,GSE47527,GSE47527,bulk_GEO,3,IL13,stromal,array,cell_line,fibroblast of lung
+bulk|IL13|GSE47538,bulk,IL13,GSE47538,GSE47538,bulk_GEO,4,IL13,myeloid,array,primary,fibroblast of lung;macrophage;monocyte
+bulk|IL13|GSE47542,bulk,IL13,GSE47542,GSE47542,bulk_GEO,2,IL13,stromal,array,cell_line,fibroblast of lung
+bulk|IL13|GSE56308,bulk,IL13,GSE56308,GSE56308,bulk_GEO,5,IL13,stromal,array,primary,skin fibroblast
+bulk|IL13|GSE56338,bulk,IL13,GSE56338,GSE56338,bulk_GEO,1,IL13,stromal,array,cell_line,fibroblast of lung
+bulk|IL13|GSE57677,bulk,IL13,GSE57677,GSE57677,bulk_GEO,2,IL13,other,array,cell_line,unknown
+bulk|IL13|GSE65335,bulk,IL13,GSE65335,GSE65335,bulk_GEO,1,IL13,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|IL13|GSE79027,bulk,IL13,GSE79027,GSE79027,bulk_GEO,1,IL13,mixed_blood,RNA-seq,primary,peripheral blood mononuclear cell
+bulk|IL15|GSE22886,bulk,IL15,GSE22886,GSE22886,bulk_GEO,2,IL15,lymphoid,array,primary,natural killer cell
+bulk|IL15|GSE59184,bulk,IL15,GSE59184,GSE59184,bulk_GEO,2,IL15,other,array,unknown,unknown
+bulk|IL15|GSE69072,bulk,IL15,GSE69072,GSE69072,bulk_GEO,1,IL15,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+bulk|IL15|GSE70214,bulk,IL15,GSE70214,GSE70214,bulk_GEO,2,IL15,lymphoid,array,primary,natural killer cell
+bulk|IL17|GSE10240,bulk,IL17,GSE10240,GSE10240,bulk_GEO,1,IL17_unspecified,epithelial,array,primary,airway epithelial cell
+bulk|IL17|GSE119047,bulk,IL17,GSE119047,GSE119047,bulk_GEO,1,IL17A,stromal,RNA-seq,primary,hepatic stellate cell
+bulk|IL17|GSE127757,bulk,IL17,GSE127757,GSE127757,bulk_GEO,4,IL17A,epithelial,array,stem_cell_derived,intestinal epithelial cell
+bulk|IL17|GSE129488,bulk,IL17,GSE129488,GSE129488,bulk_GEO,1,IL17_unspecified,other,array,unknown,unknown
+bulk|IL17|GSE24767,bulk,IL17,GSE24767,GSE24767,bulk_GEO,1,IL17_unspecified,epithelial,array,primary,keratinocyte
+bulk|IL17|GSE27533,bulk,IL17,GSE27533,GSE27533,bulk_GEO,1,IL17A,epithelial,array,cell_line,keratinocyte
+bulk|IL17|GSE36287,bulk,IL17,GSE36287,GSE36287,bulk_GEO,1,IL17A,epithelial,array,primary,keratinocyte
+bulk|IL17|GSE53163,bulk,IL17,GSE53163,GSE53163,bulk_GEO,1,IL17A,myeloid,array,primary,dendritic cell
+bulk|IL17|GSE53751,bulk,IL17,GSE53751,GSE53751,bulk_GEO,1,IL17A,epithelial,array,primary,keratinocyte
+bulk|IL17|GSE54884,bulk,IL17,GSE54884,GSE54884,bulk_GEO,1,IL17A,myeloid,array,primary,CD14-positive monocyte
+bulk|IL17|GSE80325,bulk,IL17,GSE80325,GSE80325,bulk_GEO,1,IL17A,mixed_blood,array,primary,whole blood
+bulk|IL17|GSE89610,bulk,IL17,GSE89610,GSE89610,bulk_GEO,1,IL17_unspecified,epithelial,array,cell_line,hepatocyte
+bulk|IL18|GSE124939,bulk,IL18,GSE124939,GSE124939,bulk_GEO,2,IL18,epithelial,RNA-seq,primary,keratinocyte
+bulk|IL18|GSE25742,bulk,IL18,GSE25742,GSE25742,bulk_GEO,2,IL18,mixed_blood,array,primary,whole blood
+bulk|IL18|GSE80325,bulk,IL18,GSE80325,GSE80325,bulk_GEO,1,IL18,mixed_blood,array,primary,whole blood
+bulk|IL2|GSE22886,bulk,IL2,GSE22886,GSE22886,bulk_GEO,2,IL2,lymphoid,array,primary,natural killer cell
+bulk|IL2|GSE36975,bulk,IL2,GSE36975,GSE36975,bulk_GEO,2,IL2,lymphoid,array,primary,B cell
+bulk|IL2|GSE40624,bulk,IL2,GSE40624,GSE40624,bulk_GEO,1,IL2,other,array,cell_line,unknown
+bulk|IL2|GSE64713,bulk,IL2,GSE64713,GSE64713,bulk_GEO,1,IL2,lymphoid,RNA-seq,primary,"CD8-positive, alpha-beta T cell"
+bulk|IL2|GSE74375,bulk,IL2,GSE74375,GSE74375,bulk_GEO,1,IL2,myeloid,array,primary,basophil
+bulk|IL2|GSE7571,bulk,IL2,GSE7571,GSE7571,bulk_GEO,5,IL2,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL2|GSE7572,bulk,IL2,GSE7572,GSE7572,bulk_GEO,5,IL2,lymphoid,array,primary,"CD8-positive, alpha-beta T cell"
+bulk|IL22|GSE10240,bulk,IL22,GSE10240,GSE10240,bulk_GEO,1,IL22,epithelial,array,primary,airway epithelial cell
+bulk|IL22|GSE104509,bulk,IL22,GSE104509,GSE104509,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+bulk|IL22|GSE119047,bulk,IL22,GSE119047,GSE119047,bulk_GEO,1,IL22,stromal,RNA-seq,primary,hepatic stellate cell
+bulk|IL22|GSE53751,bulk,IL22,GSE53751,GSE53751,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+bulk|IL22|GSE7216,bulk,IL22,GSE7216,GSE7216,bulk_GEO,1,IL22,epithelial,array,primary,keratinocyte
+bulk|IL22|GSE72396,bulk,IL22,GSE72396,GSE72396,bulk_GEO,1,IL22,epithelial,array,cell_line,cell line HaCaT
+bulk|IL22|GSE74389,bulk,IL22,GSE74389,GSE74389,bulk_GEO,1,IL22,other,array,unknown,unknown
+bulk|IL22|GSE89610,bulk,IL22,GSE89610,GSE89610,bulk_GEO,2,IL22,epithelial,array,cell_line,hepatocyte
+bulk|IL33|GSE25742,bulk,IL33,GSE25742,GSE25742,bulk_GEO,2,IL33,mixed_blood,array,primary,whole blood
+bulk|IL33|GSE37624,bulk,IL33,GSE37624,GSE37624,bulk_GEO,1,IL33,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|IL33|GSE45458,bulk,IL33,GSE45458,GSE45458,bulk_GEO,2,IL33,lymphoid,array,primary,innate lymphoid cell
+bulk|IL4|GSE100521,bulk,IL4,GSE100521,GSE100521,bulk_GEO,1,IL4,myeloid,array,primary,macrophage
+bulk|IL4|GSE100889,bulk,IL4,GSE100889,GSE100889,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+bulk|IL4|GSE108038,bulk,IL4,GSE108038,GSE108038,bulk_GEO,1,IL4,other,RNA-seq,primary,astrocyte
+bulk|IL4|GSE120084,bulk,IL4,GSE120084,GSE120084,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+bulk|IL4|GSE120086,bulk,IL4,GSE120086,GSE120086,bulk_GEO,2,IL4,myeloid,RNA-seq,primary,macrophage
+bulk|IL4|GSE123603,bulk,IL4,GSE123603,GSE123603,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+bulk|IL4|GSE132732,bulk,IL4,GSE132732,GSE132732,bulk_GEO,1,IL4,myeloid,RNA-seq,primary,macrophage
+bulk|IL4|GSE16387,bulk,IL4,GSE16387,GSE16387,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+bulk|IL4|GSE18017,bulk,IL4,GSE18017,GSE18017,bulk_GEO,9,IL4,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL4|GSE32959,bulk,IL4,GSE32959,GSE32959,bulk_GEO,4,IL4,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|IL4|GSE35304,bulk,IL4,GSE35304,GSE35304,bulk_GEO,4,IL4,myeloid,array,primary,monocyte
+bulk|IL4|GSE35495,bulk,IL4,GSE35495,GSE35495,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+bulk|IL4|GSE36287,bulk,IL4,GSE36287,GSE36287,bulk_GEO,1,IL4,epithelial,array,primary,keratinocyte
+bulk|IL4|GSE47527,bulk,IL4,GSE47527,GSE47527,bulk_GEO,1,IL4,stromal,array,cell_line,fibroblast of lung
+bulk|IL4|GSE47538,bulk,IL4,GSE47538,GSE47538,bulk_GEO,4,IL4,myeloid,array,primary,fibroblast of lung;macrophage;monocyte
+bulk|IL4|GSE47542,bulk,IL4,GSE47542,GSE47542,bulk_GEO,2,IL4,stromal,array,cell_line,fibroblast of lung
+bulk|IL4|GSE4846,bulk,IL4,GSE4846,GSE4846,bulk_GEO,1,IL4,lymphoid,array,cell_line,cell line Daudi
+bulk|IL4|GSE53751,bulk,IL4,GSE53751,GSE53751,bulk_GEO,1,IL4,epithelial,array,primary,keratinocyte
+bulk|IL4|GSE55288,bulk,IL4,GSE55288,GSE55288,bulk_GEO,2,IL4,lymphoid,array,primary,B cell
+bulk|IL4|GSE56308,bulk,IL4,GSE56308,GSE56308,bulk_GEO,5,IL4,stromal,array,primary,skin fibroblast
+bulk|IL4|GSE59184,bulk,IL4,GSE59184,GSE59184,bulk_GEO,2,IL4,other,array,unknown,unknown
+bulk|IL4|GSE61298,bulk,IL4,GSE61298,GSE61298,bulk_GEO,2,IL4,myeloid,array,primary,macrophage
+bulk|IL4|GSE78914,bulk,IL4,GSE78914,GSE78914,bulk_GEO,4,IL4,epithelial,array,primary,airway epithelial cell
+bulk|IL6|GSE113185,bulk,IL6,GSE113185,GSE113185,bulk_GEO,1,IL6,epithelial,RNA-seq,primary,airway epithelial cell
+bulk|IL6|GSE120411,bulk,IL6,GSE120411,GSE120411,bulk_GEO,1,IL6,other,RNA-seq,stem_cell_derived,astrocyte
+bulk|IL6|GSE123603,bulk,IL6,GSE123603,GSE123603,bulk_GEO,1,IL6,myeloid,RNA-seq,primary,macrophage
+bulk|IL6|GSE126525,bulk,IL6,GSE126525,GSE126525,bulk_GEO,1,IL6,myeloid,array,cell_line,macrophage
+bulk|IL6|GSE14632,bulk,IL6,GSE14632,GSE14632,bulk_GEO,1,IL6,epithelial,array,cell_line,cell line HepG2
+bulk|IL6|GSE45466,bulk,IL6,GSE45466,GSE45466,bulk_GEO,5,IL6,myeloid,array,primary,dendritic cell
+bulk|IL6|GSE47973,bulk,IL6,GSE47973,GSE47973,bulk_GEO,2,IL6,mixed,array,cell_line,cell line LNCaP;unknown
+bulk|IL6|GSE53751,bulk,IL6,GSE53751,GSE53751,bulk_GEO,1,IL6,epithelial,array,primary,keratinocyte
+bulk|IL6|GSE54331,bulk,IL6,GSE54331,GSE54331,bulk_GEO,30,IL6,epithelial,array,cell_line,cell line MCF-7;cell line T-47D
+bulk|IL6|GSE68826,bulk,IL6,GSE68826,GSE68826,bulk_GEO,1,IL6,epithelial,array,cell_line,cell line HK-2
+bulk|IL6|GSE78922,bulk,IL6,GSE78922,GSE78922,bulk_GEO,1,IL6,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+bulk|INHBA|GSE39210,bulk,INHBA,GSE39210,GSE39210,bulk_GEO,3,INHBA,other,array,cell_line;stem_cell_derived,unknown
+bulk|INHBA|GSE62783,bulk,INHBA,GSE62783,GSE62783,bulk_GEO,1,INHBA,stromal,array,primary,mesenchymal stem cell
+bulk|INHBA|GSE99202,bulk,INHBA,GSE99202,GSE99202,bulk_GEO,7,INHBA,other,RNA-seq,stem_cell_derived,cardiac muscle cell
+bulk|INS|GSE109022,bulk,INS,GSE109022,GSE109022,bulk_GEO,1,INS,other,array,cell_line,unknown
+bulk|INS|GSE71949,bulk,INS,GSE71949,GSE71949,bulk_GEO,1,INS,other,array,stem_cell_derived,unknown
+bulk|INS|GSE76766,bulk,INS,GSE76766,GSE76766,bulk_GEO,1,INS,epithelial,array,cell_line,cell line MCF7
+bulk|INS|GSE8531,bulk,INS,GSE8531,GSE8531,bulk_GEO,2,INS,epithelial,array,primary,keratinocyte
+bulk|NRG1|GSE22288,bulk,NRG1,GSE22288,GSE22288,bulk_GEO,1,NRG1,epithelial,array,cell_line,cell line MCF-10A
+bulk|NRG1|GSE69540,bulk,NRG1,GSE69540,GSE69540,bulk_GEO,4,NRG1,epithelial,array,cell_line,cell line MCF-7
+bulk|NRG1|GSE99926,bulk,NRG1,GSE99926,GSE99926,bulk_GEO,16,NRG1,epithelial,array,primary,hepatocyte
+bulk|OSM|GSE13046,bulk,OSM,GSE13046,GSE13046,bulk_GEO,1,OSM,epithelial,array,cell_line,cell line Huh-7
+bulk|OSM|GSE29655,bulk,OSM,GSE29655,GSE29655,bulk_GEO,1,OSM,stromal,array,cell_line,fibroblast of lung
+bulk|OSM|GSE53295,bulk,OSM,GSE53295,GSE53295,bulk_GEO,1,OSM,epithelial,array,cell_line,intestinal epithelial cell
+bulk|PDGF|GSE108835,bulk,PDGF,GSE108835,GSE108835,bulk_GEO,2,PDGFC,other,array,cell_line,cell line CAF2
+bulk|PDGF|GSE119606,bulk,PDGF,GSE119606,GSE119606,bulk_GEO,1,PDGF_BB,stromal,RNA-seq,primary,hepatic stellate cell
+bulk|PDGF|GSE14256,bulk,PDGF,GSE14256,GSE14256,bulk_GEO,2,PDGF_BB,stromal,array,primary,fibroblast
+bulk|PDGF|GSE40720,bulk,PDGF,GSE40720,GSE40720,bulk_GEO,1,PDGF_BB,stromal,array,cell_line,skin fibroblast
+bulk|PDGF|GSE56308,bulk,PDGF,GSE56308,GSE56308,bulk_GEO,5,PDGF_unspecified,stromal,array,primary,skin fibroblast
+bulk|TGFA|GSE105094,bulk,TGFA,GSE105094,GSE105094,bulk_GEO,10,TGFA,epithelial,RNA-seq,cell_line,cell line HCT 116
+bulk|TGFA|GSE110649,bulk,TGFA,GSE110649,GSE110649,bulk_GEO,10,TGFA,other,RNA-seq,cell_line,unknown
+bulk|TGFA|GSE22288,bulk,TGFA,GSE22288,GSE22288,bulk_GEO,1,TGFA,epithelial,array,cell_line,cell line MCF-10A
+bulk|TGFA|GSE8531,bulk,TGFA,GSE8531,GSE8531,bulk_GEO,2,TGFA,epithelial,array,primary,keratinocyte
+bulk|TGFB|GSE100292,bulk,TGFB,GSE100292,GSE100292,bulk_GEO,1,TGFB_unspecified,epithelial,RNA-seq,cell_line,cell line A549
+bulk|TGFB|GSE100574,bulk,TGFB,GSE100574,GSE100574,bulk_GEO,1,TGFB1,epithelial,RNA-seq,cell_line,airway epithelial cell
+bulk|TGFB|GSE100854,bulk,TGFB,GSE100854,GSE100854,bulk_GEO,1,TGFB_unspecified,epithelial,array,primary,type II pneumocyte
+bulk|TGFB|GSE102109,bulk,TGFB,GSE102109,GSE102109,bulk_GEO,2,TGFB_unspecified,other,array,cell_line,unknown
+bulk|TGFB|GSE102483,bulk,TGFB,GSE102483,GSE102483,bulk_GEO,2,TGFB1,myeloid,array,cell_line,cell line TF-1
+bulk|TGFB|GSE102674,bulk,TGFB,GSE102674,GSE102674,bulk_GEO,1,TGFB1,stromal,RNA-seq,primary,fibroblast of lung
+bulk|TGFB|GSE106401,bulk,TGFB,GSE106401,GSE106401,bulk_GEO,1,TGFB_unspecified,stromal,array,primary,skin fibroblast
+bulk|TGFB|GSE109350,bulk,TGFB,GSE109350,GSE109350,bulk_GEO,1,TGFB_unspecified,other,RNA-seq,unknown,unknown
+bulk|TGFB|GSE109585,bulk,TGFB,GSE109585,GSE109585,bulk_GEO,1,TGFB_unspecified,other,array,cell_line,unknown
+bulk|TGFB|GSE113630,bulk,TGFB,GSE113630,GSE113630,bulk_GEO,4,TGFB1,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|TGFB|GSE119007,bulk,TGFB,GSE119007,GSE119007,bulk_GEO,2,TGFB_unspecified,stromal,RNA-seq,primary,fibroblast of lung
+bulk|TGFB|GSE119145,bulk,TGFB,GSE119145,GSE119145,bulk_GEO,1,TGFB_unspecified,epithelial,RNA-seq,cell_line,cell line A549
+bulk|TGFB|GSE119606,bulk,TGFB,GSE119606,GSE119606,bulk_GEO,2,TGFB_unspecified,stromal,RNA-seq,primary,hepatic stellate cell
+bulk|TGFB|GSE122093,bulk,TGFB,GSE122093,GSE122093,bulk_GEO,7,TGFB_unspecified,epithelial,RNA-seq,cell_line,cell line MCF-10A
+bulk|TGFB|GSE124843,bulk,TGFB,GSE124843,GSE124843,bulk_GEO,2,TGFB_unspecified,epithelial,RNA-seq,cell_line,mammary gland epithelial cell
+bulk|TGFB|GSE125365,bulk,TGFB,GSE125365,GSE125365,bulk_GEO,11,TGFB3,other,RNA-seq,cell_line,cell line NCI-H358 (NSCLC)
+bulk|TGFB|GSE125369,bulk,TGFB,GSE125369,GSE125369,bulk_GEO,1,TGFB3,epithelial,RNA-seq,cell_line,cell line A549
+bulk|TGFB|GSE125519,bulk,TGFB,GSE125519,GSE125519,bulk_GEO,1,TGFB_unspecified,stromal,array,cell_line,skin fibroblast
+bulk|TGFB|GSE125577,bulk,TGFB,GSE125577,GSE125577,bulk_GEO,1,TGFB_unspecified,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|TGFB|GSE127829,bulk,TGFB,GSE127829,GSE127829,bulk_GEO,2,TGFB_unspecified,epithelial,array,cell_line,cell line HepG2;cell line Huh-7
+bulk|TGFB|GSE131998,bulk,TGFB,GSE131998,GSE131998,bulk_GEO,2,TGFB1,other,RNA-seq,primary,smooth muscle cell
+bulk|TGFB|GSE135099,bulk,TGFB,GSE135099,GSE135099,bulk_GEO,4,TGFB_unspecified,other,array,unknown,unknown
+bulk|TGFB|GSE137110,bulk,TGFB,GSE137110,GSE137110,bulk_GEO,6,TGFB1,stromal,array,primary,skin fibroblast
+bulk|TGFB|GSE15390,bulk,TGFB,GSE15390,GSE15390,bulk_GEO,4,TGFB1,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|TGFB|GSE16416,bulk,TGFB,GSE16416,GSE16416,bulk_GEO,2,TGFB1,stromal,array,cell_line,cell line BJ
+bulk|TGFB|GSE17518,bulk,TGFB,GSE17518,GSE17518,bulk_GEO,1,TGFB1,stromal,array,cell_line,cell line IMR-90
+bulk|TGFB|GSE17708,bulk,TGFB,GSE17708,GSE17708,bulk_GEO,8,TGFB1,epithelial,array,cell_line,cell line A549
+bulk|TGFB|GSE17909,bulk,TGFB,GSE17909,GSE17909,bulk_GEO,2,TGFB1,myeloid,array,cell_line,cell line THP-1
+bulk|TGFB|GSE1802,bulk,TGFB,GSE1802,GSE1802,bulk_GEO,2,TGFB_unspecified,other,array,primary,hematopoietic stem/progenitor cell
+bulk|TGFB|GSE23338,bulk,TGFB,GSE23338,GSE23338,bulk_GEO,2,TGFB1,epithelial,array,cell_line,kidney epithelial cell
+bulk|TGFB|GSE23952,bulk,TGFB,GSE23952,GSE23952,bulk_GEO,1,TGFB_unspecified,epithelial,array,cell_line,cell line PANC-1
+bulk|TGFB|GSE25200,bulk,TGFB,GSE25200,GSE25200,bulk_GEO,2,TGFB1,stromal,array,cell_line,fibroblast
+bulk|TGFB|GSE26858,bulk,TGFB,GSE26858,GSE26858,bulk_GEO,3,TGFB1,epithelial,array,cell_line,cell line A549
+bulk|TGFB|GSE2705,bulk,TGFB,GSE2705,GSE2705,bulk_GEO,1,TGFB1,other,array,unknown,unknown
+bulk|TGFB|GSE27165,bulk,TGFB,GSE27165,GSE27165,bulk_GEO,2,TGFB1,stromal,array,primary,fibroblast
+bulk|TGFB|GSE27526,bulk,TGFB,GSE27526,GSE27526,bulk_GEO,1,TGFB_unspecified,epithelial,array,cell_line,epithelial cell
+bulk|TGFB|GSE31318,bulk,TGFB,GSE31318,GSE31318,bulk_GEO,2,TGFB_unspecified,other,array,primary,hematopoietic stem/progenitor cell
+bulk|TGFB|GSE34277,bulk,TGFB,GSE34277,GSE34277,bulk_GEO,8,TGFB_unspecified,epithelial,array,cell_line,epithelial cell
+bulk|TGFB|GSE39397,bulk,TGFB,GSE39397,GSE39397,bulk_GEO,1,TGFB1,other,array,cell_line,cell line CCD-Co-18
+bulk|TGFB|GSE40266,bulk,TGFB,GSE40266,GSE40266,bulk_GEO,2,TGFB1;TGFB2,stromal,array,cell_line,fibroblast
+bulk|TGFB|GSE40374,bulk,TGFB,GSE40374,GSE40374,bulk_GEO,1,TGFB1,epithelial,array,cell_line,airway epithelial cell
+bulk|TGFB|GSE45945,bulk,TGFB,GSE45945,GSE45945,bulk_GEO,5,TGFB1,epithelial,array,cell_line,cell line HepG2
+bulk|TGFB|GSE47538,bulk,TGFB,GSE47538,GSE47538,bulk_GEO,2,TGFB_unspecified,mixed,array,primary,fibroblast of lung;macrophage
+bulk|TGFB|GSE56309,bulk,TGFB,GSE56309,GSE56309,bulk_GEO,1,TGFB_unspecified,endothelial,array,cell_line,endothelial cell of umbilical vein
+bulk|TGFB|GSE57441,bulk,TGFB,GSE57441,GSE57441,bulk_GEO,1,TGFB1,stromal,array,cell_line,fibroblast
+bulk|TGFB|GSE59953,bulk,TGFB,GSE59953,GSE59953,bulk_GEO,1,TGFB1,stromal,array,primary,hepatic stellate cell
+bulk|TGFB|GSE61128,bulk,TGFB,GSE61128,GSE61128,bulk_GEO,7,TGFB1,other,array,primary,fibroblast;smooth muscle cell
+bulk|TGFB|GSE61220,bulk,TGFB,GSE61220,GSE61220,bulk_GEO,1,TGFB_unspecified,epithelial,RNA-seq,cell_line,airway epithelial cell
+bulk|TGFB|GSE62783,bulk,TGFB,GSE62783,GSE62783,bulk_GEO,1,TGFB3,stromal,array,primary,mesenchymal stem cell
+bulk|TGFB|GSE63659,bulk,TGFB,GSE63659,GSE63659,bulk_GEO,1,TGFB1,stromal,array,cell_line,fibroblast
+bulk|TGFB|GSE65069,bulk,TGFB,GSE65069,GSE65069,bulk_GEO,2,TGFB1,stromal,array,primary,fibroblast
+bulk|TGFB|GSE65445,bulk,TGFB,GSE65445,GSE65445,bulk_GEO,2,TGFB3,endothelial,array,primary,endothelial cell
+bulk|TGFB|GSE69667,bulk,TGFB,GSE69667,GSE69667,bulk_GEO,7,TGFB_unspecified,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|TGFB|GSE7144,bulk,TGFB,GSE7144,GSE7144,bulk_GEO,2,TGFB1;TGFB2,other,array,unknown,unknown
+bulk|TGFB|GSE7497,bulk,TGFB,GSE7497,GSE7497,bulk_GEO,3,TGFB_unspecified,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|TGFB|GSE79462,bulk,TGFB,GSE79462,GSE79462,bulk_GEO,2,TGFB_unspecified,other,array,stem_cell_derived,unknown
+bulk|TGFB|GSE79621,bulk,TGFB,GSE79621,GSE79621,bulk_GEO,1,TGFB_unspecified,other,array,unknown,unknown
+bulk|TGFB|GSE81998,bulk,TGFB,GSE81998,GSE81998,bulk_GEO,2,TGFB_unspecified,stromal,array,primary,skin fibroblast
+bulk|TGFB|GSE82299,bulk,TGFB,GSE82299,GSE82299,bulk_GEO,1,TGFB1,epithelial,array,cell_line,cell line PANC-1
+bulk|TGFB|GSE8240,bulk,TGFB,GSE8240,GSE8240,bulk_GEO,1,TGFB_unspecified,epithelial,array,cell_line,cell line MCF-10A
+bulk|TGFB|GSE83642,bulk,TGFB,GSE83642,GSE83642,bulk_GEO,1,TGFB_unspecified,stromal,array,primary,fibroblast
+bulk|TGFB|GSE84135,bulk,TGFB,GSE84135,GSE84135,bulk_GEO,4,TGFB_unspecified,epithelial,RNA-seq,primary,airway epithelial cell
+bulk|TGFB|GSE85910,bulk,TGFB,GSE85910,GSE85910,bulk_GEO,1,TGFB_unspecified,other,RNA-seq,primary,vascular associated smooth muscle cell
+bulk|TGFB|GSE87508,bulk,TGFB,GSE87508,GSE87508,bulk_GEO,1,TGFB_unspecified,lymphoid,RNA-seq,primary,"CD4-positive, alpha-beta T cell"
+bulk|TGFB|GSE89152,bulk,TGFB,GSE89152,GSE89152,bulk_GEO,2,TGFB_unspecified,epithelial,RNA-seq,cell_line,cell line MCF-10A
+bulk|TGFB|GSE90638,bulk,TGFB,GSE90638,GSE90638,bulk_GEO,4,TGFB3,stromal,array,primary,chondrocyte
+bulk|TGFB|GSE95536,bulk,TGFB,GSE95536,GSE95536,bulk_GEO,3,TGFB_unspecified,epithelial,RNA-seq,cell_line,epithelial cell
+bulk|TGFB|GSE96089,bulk,TGFB,GSE96089,GSE96089,bulk_GEO,1,TGFB2,endothelial,array,primary,endothelial cell
+bulk|TGFB|GSE97117,bulk,TGFB,GSE97117,GSE97117,bulk_GEO,1,TGFB1,stromal,RNA-seq,primary,fibroblast of cardiac tissue
+bulk|TGFB|GSE97834,bulk,TGFB,GSE97834,GSE97834,bulk_GEO,3,TGFB_unspecified,stromal,array,cell_line,fibroblast of lung
+bulk|TGFB|GSE98225,bulk,TGFB,GSE98225,GSE98225,bulk_GEO,1,TGFB2,epithelial,array,cell_line,epithelial cell
+bulk|TGFB|GSE98941,bulk,TGFB,GSE98941,GSE98941,bulk_GEO,1,TGFB_unspecified,other,RNA-seq,stem_cell_derived,unknown
+bulk|TGFB|GSE98979,bulk,TGFB,GSE98979,GSE98979,bulk_GEO,2,TGFB_unspecified,epithelial,array,cell_line,epithelial cell
+bulk|TNF|GSE101867,bulk,TNF,GSE101867,GSE101867,bulk_GEO,1,TNF,other,array,cell_line,unknown
+bulk|TNF|GSE109460,bulk,TNF,GSE109460,GSE109460,bulk_GEO,2,TNF,lymphoid,RNA-seq,cell_line,cell line 2D10 Jurkat
+bulk|TNF|GSE115311,bulk,TNF,GSE115311,GSE115311,bulk_GEO,9,TNF,mixed,RNA-seq,primary,endothelial cell;mesenchymal stem cell;vascular associated smooth muscle cell
+bulk|TNF|GSE116936,bulk,TNF,GSE116936,GSE116936,bulk_GEO,1,TNF,epithelial,RNA-seq,stem_cell_derived,intestinal epithelial cell
+bulk|TNF|GSE119651,bulk,TNF,GSE119651,GSE119651,bulk_GEO,2,TNF,other,array,cell_line,cell line BeWo
+bulk|TNF|GSE120411,bulk,TNF,GSE120411,GSE120411,bulk_GEO,1,TNF,other,RNA-seq,stem_cell_derived,astrocyte
+bulk|TNF|GSE120550,bulk,TNF,GSE120550,GSE120550,bulk_GEO,1,TNF,epithelial,array,cell_line,cell line MDA-MB-231
+bulk|TNF|GSE121522,bulk,TNF,GSE121522,GSE121522,bulk_GEO,1,TNF,endothelial,RNA-seq,primary,endothelial cell
+bulk|TNF|GSE12161,bulk,TNF,GSE12161,GSE12161,bulk_GEO,1,TNF,epithelial,array,cell_line,cell line HepG2
+bulk|TNF|GSE126200,bulk,TNF,GSE126200,GSE126200,bulk_GEO,4,TNF,endothelial,RNA-seq,cell_line;primary,cell line teloHAEC;endothelial cell
+bulk|TNF|GSE126525,bulk,TNF,GSE126525,GSE126525,bulk_GEO,1,TNF,myeloid,array,cell_line,macrophage
+bulk|TNF|GSE129229,bulk,TNF,GSE129229,GSE129229,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,macrophage
+bulk|TNF|GSE129488,bulk,TNF,GSE129488,GSE129488,bulk_GEO,5,TNF,other,array,unknown,unknown
+bulk|TNF|GSE132704,bulk,TNF,GSE132704,GSE132704,bulk_GEO,1,TNF,epithelial,RNA-seq,cell_line,cell line HeLa
+bulk|TNF|GSE133968,bulk,TNF,GSE133968,GSE133968,bulk_GEO,1,TNF,other,array,cell_line,unknown
+bulk|TNF|GSE136439,bulk,TNF,GSE136439,GSE136439,bulk_GEO,9,TNF,epithelial,array,cell_line,cell line A549;cell line HT-29;cell line K-562;epithelial cell
+bulk|TNF|GSE16650,bulk,TNF,GSE16650,GSE16650,bulk_GEO,1,TNF,epithelial,array,cell_line,airway epithelial cell
+bulk|TNF|GSE21728,bulk,TNF,GSE21728,GSE21728,bulk_GEO,2,TNF,stromal,array,primary,osteoblast
+bulk|TNF|GSE24767,bulk,TNF,GSE24767,GSE24767,bulk_GEO,2,TNF,epithelial,array,primary,keratinocyte
+bulk|TNF|GSE2504,bulk,TNF,GSE2504,GSE2504,bulk_GEO,1,TNF,lymphoid,array,cell_line,T cell
+bulk|TNF|GSE25742,bulk,TNF,GSE25742,GSE25742,bulk_GEO,2,TNF,mixed_blood,array,primary,whole blood
+bulk|TNF|GSE2638,bulk,TNF,GSE2638,GSE2638,bulk_GEO,1,TNF,epithelial,array,primary,mammary gland epithelial cell
+bulk|TNF|GSE2639,bulk,TNF,GSE2639,GSE2639,bulk_GEO,1,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|TNF|GSE26994,bulk,TNF,GSE26994,GSE26994,bulk_GEO,2,TNF,mixed,array,cell_line,cell line HeLa;cell line THP-1
+bulk|TNF|GSE28548,bulk,TNF,GSE28548,GSE28548,bulk_GEO,3,TNF,other,array,cell_line,cell line HEK293
+bulk|TNF|GSE28995,bulk,TNF,GSE28995,GSE28995,bulk_GEO,1,TNF,myeloid,array,cell_line,cell line THP-1
+bulk|TNF|GSE31064,bulk,TNF,GSE31064,GSE31064,bulk_GEO,4,TNF,stromal,array,primary,fibroblast
+bulk|TNF|GSE31679,bulk,TNF,GSE31679,GSE31679,bulk_GEO,3,TNF,epithelial,array,cell_line,trophoblast cell
+bulk|TNF|GSE34329,bulk,TNF,GSE34329,GSE34329,bulk_GEO,1,TNF,epithelial,RNA-seq,cell_line,cell line A549
+bulk|TNF|GSE36287,bulk,TNF,GSE36287,GSE36287,bulk_GEO,1,TNF,epithelial,array,primary,keratinocyte
+bulk|TNF|GSE36331,bulk,TNF,GSE36331,GSE36331,bulk_GEO,1,TNF,epithelial,array,cell_line,retinal pigment epithelial cell
+bulk|TNF|GSE37139,bulk,TNF,GSE37139,GSE37139,bulk_GEO,4,TNF,epithelial,array,cell_line,cell line MCF-7
+bulk|TNF|GSE40007,bulk,TNF,GSE40007,GSE40007,bulk_GEO,1,TNF,stromal,array,stem_cell_derived,endometrial stromal cell
+bulk|TNF|GSE40548,bulk,TNF,GSE40548,GSE40548,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,neutrophil
+bulk|TNF|GSE40752,bulk,TNF,GSE40752,GSE40752,bulk_GEO,10,TNF,mixed_blood,array,primary,fibroblast;peripheral blood mononuclear cell
+bulk|TNF|GSE41883,bulk,TNF,GSE41883,GSE41883,bulk_GEO,1,TNF,other,array,unknown,unknown
+bulk|TNF|GSE43685,bulk,TNF,GSE43685,GSE43685,bulk_GEO,1,TNF,other,array,cell_line,cell line BeWo
+bulk|TNF|GSE45251,bulk,TNF,GSE45251,GSE45251,bulk_GEO,1,TNF,other,array,primary,smooth muscle cell
+bulk|TNF|GSE47189,bulk,TNF,GSE47189,GSE47189,bulk_GEO,1,TNF,other,array,unknown,unknown
+bulk|TNF|GSE47542,bulk,TNF,GSE47542,GSE47542,bulk_GEO,2,TNF,stromal,array,cell_line,fibroblast of lung
+bulk|TNF|GSE52185,bulk,TNF,GSE52185,GSE52185,bulk_GEO,2,TNF,lymphoid,array,primary,"CD4-positive, alpha-beta T cell"
+bulk|TNF|GSE54000,bulk,TNF,GSE54000,GSE54000,bulk_GEO,2,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|TNF|GSE54257,bulk,TNF,GSE54257,GSE54257,bulk_GEO,9,TNF,epithelial,array,cell_line,cell line HepG2
+bulk|TNF|GSE56678,bulk,TNF,GSE56678,GSE56678,bulk_GEO,2,TNF,epithelial,array,cell_line,cell line Calu-3
+bulk|TNF|GSE56681,bulk,TNF,GSE56681,GSE56681,bulk_GEO,1,TNF,myeloid,array,primary,monocyte
+bulk|TNF|GSE59237,bulk,TNF,GSE59237,GSE59237,bulk_GEO,1,TNF,myeloid,array,primary,dendritic cell
+bulk|TNF|GSE59472,bulk,TNF,GSE59472,GSE59472,bulk_GEO,1,TNF,epithelial,array,primary,airway epithelial cell
+bulk|TNF|GSE60462,bulk,TNF,GSE60462,GSE60462,bulk_GEO,1,TNF,stromal,RNA-seq,primary,fat cell
+bulk|TNF|GSE61220,bulk,TNF,GSE61220,GSE61220,bulk_GEO,2,TNF,epithelial,RNA-seq,cell_line,airway epithelial cell
+bulk|TNF|GSE64233,bulk,TNF,GSE64233,GSE64233,bulk_GEO,3,TNF,stromal,RNA-seq,primary,fat cell
+bulk|TNF|GSE64250,bulk,TNF,GSE64250,GSE64250,bulk_GEO,1,TNF,other,array,unknown,unknown
+bulk|TNF|GSE67295,bulk,TNF,GSE67295,GSE67295,bulk_GEO,1,TNF,epithelial,RNA-seq,cell_line,cell line MCF-7
+bulk|TNF|GSE68182,bulk,TNF,GSE68182,GSE68182,bulk_GEO,1,TNF,epithelial,array,cell_line,epithelial cell
+bulk|TNF|GSE68941,bulk,TNF,GSE68941,GSE68941,bulk_GEO,1,TNF,epithelial,array,cell_line,cell line HK-2
+bulk|TNF|GSE69605,bulk,TNF,GSE69605,GSE69605,bulk_GEO,1,TNF,epithelial,array,cell_line,cell line HT-29
+bulk|TNF|GSE70068,bulk,TNF,GSE70068,GSE70068,bulk_GEO,2,TNF,myeloid,RNA-seq,primary,neutrophil
+bulk|TNF|GSE74407,bulk,TNF,GSE74407,GSE74407,bulk_GEO,1,TNF,epithelial,array,cell_line,keratinocyte
+bulk|TNF|GSE77814,bulk,TNF,GSE77814,GSE77814,bulk_GEO,2,TNF,other,array,cell_line,unknown
+bulk|TNF|GSE80325,bulk,TNF,GSE80325,GSE80325,bulk_GEO,1,TNF,mixed_blood,array,primary,whole blood
+bulk|TNF|GSE82036,bulk,TNF,GSE82036,GSE82036,bulk_GEO,1,TNF,endothelial,array,primary,endothelial cell
+bulk|TNF|GSE89970,bulk,TNF,GSE89970,GSE89970,bulk_GEO,4,TNF,endothelial,RNA-seq,primary,endothelial cell
+bulk|TNF|GSE9055,bulk,TNF,GSE9055,GSE9055,bulk_GEO,7,TNF,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|TNF|GSE91020,bulk,TNF,GSE91020,GSE91020,bulk_GEO,1,TNF,epithelial,RNA-seq,primary,epithelial cell
+bulk|TNF|GSE95588,bulk,TNF,GSE95588,GSE95588,bulk_GEO,1,TNF,myeloid,RNA-seq,primary,macrophage
+bulk|TNF|GSE97979,bulk,TNF,GSE97979,GSE97979,bulk_GEO,2,TNF,other,RNA-seq,cell_line,cell line HEK293
+bulk|TNF|GSE98624,bulk,TNF,GSE98624,GSE98624,bulk_GEO,2,TNF,stromal,RNA-seq,primary,skin fibroblast
+bulk|TNFSF10|GSE104602,bulk,TNFSF10,GSE104602,GSE104602,bulk_GEO,1,TNFSF10,epithelial,RNA-seq,cell_line,cell line HCT 116
+bulk|TNFSF10|GSE29955,bulk,TNFSF10,GSE29955,GSE29955,bulk_GEO,1,TNFSF10,other,array,primary,vascular associated smooth muscle cell
+bulk|TNFSF10|GSE55050,bulk,TNFSF10,GSE55050,GSE55050,bulk_GEO,4,TNFSF10,other,array,cell_line,cell line Me13
+bulk|TNFSF10|GSE67033,bulk,TNFSF10,GSE67033,GSE67033,bulk_GEO,1,TNFSF10,epithelial,array,cell_line,cell line HT-29
+bulk|TNFSF10|GSE87287,bulk,TNFSF10,GSE87287,GSE87287,bulk_GEO,1,TNFSF10,epithelial,array,cell_line,cell line PANC-1
+bulk|TSLP|GSE45458,bulk,TSLP,GSE45458,GSE45458,bulk_GEO,1,TSLP,lymphoid,array,primary,innate lymphoid cell
+bulk|TSLP|GSE59237,bulk,TSLP,GSE59237,GSE59237,bulk_GEO,1,TSLP,myeloid,array,primary,dendritic cell
+bulk|TSLP|GSE73313,bulk,TSLP,GSE73313,GSE73313,bulk_GEO,2,TSLP,myeloid,RNA-seq,primary,neutrophil
+bulk|TSLP|GSE73542,bulk,TSLP,GSE73542,GSE73542,bulk_GEO,2,TSLP,myeloid,array,primary,dendritic cell
+bulk|TSLP|GSE74339,bulk,TSLP,GSE74339,GSE74339,bulk_GEO,1,TSLP,lymphoid,RNA-seq,primary,B cell
+bulk|VEGFA|GSE100404,bulk,VEGFA,GSE100404,GSE100404,bulk_GEO,5,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE112172,bulk,VEGFA,GSE112172,GSE112172,bulk_GEO,3,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE11228,bulk,VEGFA,GSE11228,GSE11228,bulk_GEO,4,VEGFA,endothelial,array,primary,endothelial cell of lymphatic vessel
+bulk|VEGFA|GSE129276,bulk,VEGFA,GSE129276,GSE129276,bulk_GEO,1,VEGFA,endothelial,array,cell_line,endothelial cell of umbilical vein
+bulk|VEGFA|GSE18913,bulk,VEGFA,GSE18913,GSE18913,bulk_GEO,4,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE19335,bulk,VEGFA,GSE19335,GSE19335,bulk_GEO,1,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE58663,bulk,VEGFA,GSE58663,GSE58663,bulk_GEO,1,VEGFA,endothelial,RNA-seq,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE71967,bulk,VEGFA,GSE71967,GSE71967,bulk_GEO,1,VEGFA,endothelial,array,primary,endothelial cell of umbilical vein
+bulk|VEGFA|GSE93590,bulk,VEGFA,GSE93590,GSE93590,bulk_GEO,2,VEGFA,endothelial,RNA-seq,primary,endothelial cell
+bulk|WNT3A|GSE103175,bulk,WNT3A,GSE103175,GSE103175,bulk_GEO,3,WNT3A,other,RNA-seq,stem_cell_derived,unknown
+bulk|WNT3A|GSE106755,bulk,WNT3A,GSE106755,GSE106755,bulk_GEO,2,WNT3A,other,array,unknown,unknown
+bulk|WNT3A|GSE120106,bulk,WNT3A,GSE120106,GSE120106,bulk_GEO,1,WNT3A,stromal,RNA-seq,cell_line,fibroblast
+bulk|WNT3A|GSE42071,bulk,WNT3A,GSE42071,GSE42071,bulk_GEO,1,WNT3A,other,array,cell_line,unknown
+bulk|WNT3A|GSE50248,bulk,WNT3A,GSE50248,GSE50248,bulk_GEO,2,WNT3A,epithelial,array,cell_line,cell line HeLa
+bulk|WNT3A|GSE68633,bulk,WNT3A,GSE68633,GSE68633,bulk_GEO,3,WNT3A,epithelial,array,cell_line,cell line HepaRG
+bulk|WNT3A|GSE89124,bulk,WNT3A,GSE89124,GSE89124,bulk_GEO,1,WNT3A,stromal,RNA-seq,primary,fibroblast
+bulk|WNT5A|GSE106755,bulk,WNT5A,GSE106755,GSE106755,bulk_GEO,2,WNT5A,other,array,unknown,unknown
+bulk|WNT5A|GSE42071,bulk,WNT5A,GSE42071,GSE42071,bulk_GEO,1,WNT5A,other,array,cell_line,unknown
+bulk|WNT5A|GSE90785,bulk,WNT5A,GSE90785,GSE90785,bulk_GEO,2,WNT5A,other,RNA-seq,stem_cell_derived,pancreatic islet cell (mixed)

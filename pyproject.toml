@@ -9,7 +9,6 @@ description = "R2S: identify the applied extracellular signal from a receiver po
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "Katherine Xie"}, {name = "Jie Wu", email = "jiew5@uci.edu"}]
 dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0"]
 
 [project.optional-dependencies]
